@@ -1,6 +1,9 @@
 {
   "hosting": {
     "public": "out",
+    "rewrites": [
+      { "source": "/api/contact", "function": "contact" }
+    ],
     "ignore": [
       "firebase.json",
       "**/.*",
