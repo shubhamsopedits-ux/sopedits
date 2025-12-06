@@ -26,7 +26,21 @@ setGlobalOptions({ maxInstances: 10 });
 // Create and deploy your first functions
 // https://firebase.google.com/docs/functions/get-started
 
-// exports.helloWorld = onRequest((request, response) => {
-//   logger.info("Hello logs!", {structuredData: true});
-//   response.send("Hello from Firebase!");
-// });
+exports.contact = onRequest(async (req, res) => {
+	if (req.method !== 'POST') {
+		res.status(405).send('Method Not Allowed');
+		return;
+	}
+	try {
+		const { name, email, message } = req.body || {};
+		if (!name || !email || !message) {
+			res.status(400).json({ error: 'Missing fields' });
+			return;
+		}
+		logger.info('Contact received', { name, email });
+		res.status(200).json({ ok: true });
+	} catch (err) {
+		logger.error('Contact error', err);
+		res.status(500).json({ error: 'Server error' });
+	}
+});
