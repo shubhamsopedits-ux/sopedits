@@ -3,7 +3,7 @@ Email: ${i}
 Phone: ${a}
 State: ${s}
 City: ${o}`,c=`
-      <h2>New Study Abroad Lead</h2>
+      <h2>SOP Edits Study Abroad Lead</h2>
       <p><strong>Name:</strong> ${t}</p>
       <p><strong>Email:</strong> ${i}</p>
       <p><strong>Phone:</strong> ${a}</p>
