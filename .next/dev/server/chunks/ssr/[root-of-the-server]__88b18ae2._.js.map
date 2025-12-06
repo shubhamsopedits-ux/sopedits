@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 17, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":""}},
+    {"offset": {"line": 21, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Hp/Desktop/sop/src/app/page.js"],"sourcesContent":["import HomePage from '../components/HomePage';\n\nexport default function Page() {\n  return <HomePage />;\n}\n"],"names":[],"mappings":";;;;;AAAA;;;AAEe,SAAS;IACtB,qBAAO,8OAAC,wIAAQ;;;;;AAClB"}}]
+}
