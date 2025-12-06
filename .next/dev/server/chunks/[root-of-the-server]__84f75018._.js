@@ -158,7 +158,7 @@ async function POST(req) {
                 pass: process.env.SMTP_PASS
             }
         });
-        const subject = "New SOP Edits Lead";
+        const subject = `New SOP Edits Lead ${name}`;
         const text = `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nState: ${state}\nCity: ${city}`;
         const html = `
       <h2>New Study Abroad Lead</h2>
