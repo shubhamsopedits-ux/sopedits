@@ -32,13 +32,13 @@ exports.contact = onRequest(async (req, res) => {
 		return;
 	}
 	try {
-		const { name, email, message } = req.body || {};
-		if (!name || !email || !message) {
-			res.status(400).json({ error: 'Missing fields' });
+		const { name, email, phone, state, city, message } = req.body || {};
+		if (!name || !email) {
+			res.status(400).json({ error: 'Missing required fields: name, email' });
 			return;
 		}
-		logger.info('Contact received', { name, email });
-		res.status(200).json({ ok: true });
+		logger.info('Contact received', { name, email, phone, state, city });
+		res.status(200).json({ ok: true, data: { name, email, phone, state, city, message } });
 	} catch (err) {
 		logger.error('Contact error', err);
 		res.status(500).json({ error: 'Server error' });
