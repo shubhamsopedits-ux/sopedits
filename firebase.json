@@ -2,7 +2,10 @@
   "hosting": {
     "public": "out",
     "rewrites": [
-      { "source": "/api/contact", "function": "contact" }
+      {
+        "source": "/api/contact",
+        "function": "contact"
+      }
     ],
     "ignore": [
       "firebase.json",
@@ -12,7 +15,6 @@
   },
   "functions": [
     {
-      "source": "functions",
       "codebase": "default",
       "disallowLegacyRuntimeConfig": true,
       "ignore": [
@@ -24,7 +26,8 @@
       ],
       "predeploy": [
         "npm --prefix \"$RESOURCE_DIR\" run lint"
-      ]
+      ],
+      "source": "functions"
     }
   ]
 }
