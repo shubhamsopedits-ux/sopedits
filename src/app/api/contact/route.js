@@ -22,7 +22,7 @@ export async function POST(req) {
       },
     });
 
-    const subject = "New SOP Edits Lead";
+    const subject = `New SOP Edits Lead ${name}`;
     const text = `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nState: ${state}\nCity: ${city}`;
     const html = `
       <h2>New Study Abroad Lead</h2>
