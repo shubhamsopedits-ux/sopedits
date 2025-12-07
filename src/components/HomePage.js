@@ -1,5 +1,7 @@
 "use client";
 import React from "react";
+import PhoneInput from "react-phone-input-2";
+import "react-phone-input-2/lib/style.css";
 
 export default function HomePage() {
   const [activeTab, setActiveTab] = React.useState("uk");
@@ -242,7 +244,7 @@ export default function HomePage() {
         logo: "https://seeklogo.com/images/U/university-of-birmingham-logo-6B2F6B0E5B-seeklogo.com.png",
         courses: "497+ Courses",
       },
-      
+
     ],
     dubai: [
       {
@@ -347,11 +349,21 @@ export default function HomePage() {
                 <label className="absolute left-4 top-[-8px] bg-white px-1 text-xs text-gray-500 pointer-events-none peer-focus:text-blue-500">Enter Email Address*</label>
               </div>
               <div className="relative">
-                <div className="flex">
-                  <span className="inline-flex items-center px-4 rounded-l-xl border border-r-0 border-gray-300 bg-gray-100 text-gray-600 text-md">🇮🇳 +91</span>
-                  <input type="tel" placeholder="" className="w-full border border-gray-300 rounded-r-xl px-4 py-3 text-md focus:outline-none focus:ring-2 focus:ring-blue-500 peer" required value={phone} onChange={(e) => setPhone(e.target.value)} />
-                </div>
-                <label className="absolute left-4 top-[-8px] bg-white px-1 text-xs text-gray-500 pointer-events-none peer-focus:text-blue-500">Mobile number*</label>
+                <PhoneInput
+                  country={"in"}
+                  value={phone}
+                  onChange={(val) => setPhone(val)}
+                  inputProps={{ name: "phone", required: true }}
+                  placeholder="Mobile number"
+                  enableSearch
+                  countryCodeEditable={false}
+                  inputClass="w-full !text-md !border !border-gray-300 !rounded-r-xl focus:!outline-none focus:!ring-2 focus:!ring-blue-500"
+                  containerClass="w-full"
+                  buttonClass="!rounded-l-xl !border !border-gray-300"
+                  inputStyle={{ height: '48px', padding: '0 45px', width: '100%' }}
+                  buttonStyle={{ height: '48px' }}
+                />
+                <label className="absolute left-4 top-[-8px] bg-white px-1 text-xs text-gray-500 pointer-events-none">Mobile number*</label>
               </div>
 
               {/* State */}
@@ -407,19 +419,19 @@ export default function HomePage() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div>
               <span className="text-6xl mb-4 inline-block"><img src="https://www.svgrepo.com/show/428734/university-academy-school.svg" alt="Partner Universities" width="60" height="60" /></span>
-              <div className="text-xl font-bold text-gray-900 mb-2">1000+ <span className="font-normal">Partner Universities</span></div>
+              <div className="text-sm sm:text-base md:text-xl font-bold text-gray-900 mb-2">1000+ <span className="font-normal">Partner Universities</span></div>
             </div>
             <div>
               <span className="text-6xl mb-4 inline-block"><img src="https://www.svgrepo.com/show/324120/graduation-education-cap-mortarboard-graduate.svg" alt="Partner Universities" width="60" height="60" /></span>
-              <div className="text-xl font-bold text-gray-900 mb-2">Course Starting <span className="font-normal">₹8 Lakhs*</span></div>
+              <div className="text-sm sm:text-base md:text-xl font-bold text-gray-900 mb-2">Course Starting <span className="font-normal">₹8 Lakhs*</span></div>
             </div>
             <div>
               <span className="text-6xl mb-4 inline-block"><img src="https://www.svgrepo.com/show/245796/geography-map.svg" alt="Partner Universities" width="60" height="60" /></span>
-              <div className="text-xl font-bold text-gray-900 mb-2">80+ <span className="font-normal">Countries</span></div>
+              <div className="text-sm sm:text-base md:text-xl font-bold text-gray-900 mb-2">80+ <span className="font-normal">Countries</span></div>
             </div>
             <div>
               <span className="text-6xl mb-4 inline-block"><img src="https://www.svgrepo.com/show/422999/trophy-prize-achievement.svg" alt="Partner Universities" width="60" height="60" /></span>
-              <div className="text-xl font-bold text-gray-900 mb-2">90000+ <span className="font-normal">Success Stories</span></div>
+              <div className="text-sm sm:text-base md:text-xl font-bold text-gray-900 mb-2">90000+ <span className="font-normal">Success Stories</span></div>
             </div>
           </div>
         </div>
@@ -457,7 +469,7 @@ export default function HomePage() {
                 <div key={idx} className="bg-white rounded-xl shadow p-6 flex items-center gap-4">
                   <img src={uni.logo} alt={uni.name} className="h-16 w-16 object-contain rounded" />
                   <div>
-                    <div className="font-bold text-lg text-gray-900">{uni.name}</div>
+                    <div className="font-bold text-sm sm:text-base md:text-md text-gray-900 whitespace-nowrap">{uni.name}</div>
                     <div className="text-gray-500 text-sm">{uni.city}</div>
                   </div>
                   <span className="ml-auto mt-12 text-nowrap bg-yellow-200 text-yellow-800 text-[10px] font-semibold px-3 py-1 rounded">{uni.courses}</span>
