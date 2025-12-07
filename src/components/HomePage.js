@@ -93,51 +93,111 @@ export default function HomePage() {
   const universities = {
     uk: [
       {
-        name: "University of Birmingham",
-        city: "Birmingham, United Kingdom",
-        logo: "https://seeklogo.com/images/U/university-of-birmingham-logo-6B2F6B0E5B-seeklogo.com.png",
+        name: "King's College London",
+        city: "London, United Kingdom",
+        logo: "https://www.kcl.ac.uk/SiteElements/2017/images/kcl-logo.svg",
         courses: "497+ Courses",
       },
       {
-        name: "Queen Mary University of London",
-        city: "London, United Kingdom",
-        logo: "https://www.qmul.ac.uk/media/qmul/media/qmul-logo.png",
+        name: "University of Manchester",
+        city: "Manchester, United Kingdom",
+        logo: "https://assets.manchester.ac.uk/corporate/images/design/logo-university-of-manchester.png",
         courses: "519+ Courses",
       },
       {
-        name: "University of Essex",
-        city: "Colchester, United Kingdom",
-        logo: "https://www.essex.ac.uk/-/media/images/logos/university-of-essex-logo.png",
+        name: "University of Birmingham",
+        city: "Birmingham, United Kingdom",
+        logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Shield_of_the_University_of_Birmingham.svg/330px-Shield_of_the_University_of_Birmingham.svg.png",
         courses: "450+ Courses",
       },
       {
-        name: "Coventry University",
-        city: "Coventry, United Kingdom",
-        logo: "https://upload.wikimedia.org/wikipedia/en/2/2b/Coventry_University_logo.png",
+        name: "University of Bristol",
+        city: "Bristol, United Kingdom",
+        logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHxu9iHxygYxBlKKC_zHGgfH0uTQSZ6z7f2A&s",
         courses: "503+ Courses",
       },
       {
-        name: "Nottingham Trent University",
-        city: "Nottingham, United Kingdom",
-        logo: "https://www.ntu.ac.uk/__data/assets/file/0020/10296/NTU_logo.png",
+        name: "University of Leeds",
+        city: "Leeds, United Kingdom",
+        logo: "https://www.leeds.ac.uk/site/custom_scripts/campus_map/imgs/icons/loading.png",
         courses: "335+ Courses",
       },
       {
-        name: "University of East London",
-        city: "London, United Kingdom",
-        logo: "https://www.uel.ac.uk/sites/default/files/uel-logo.png",
+        name: "University of Liverpool",
+        city: "Liverpool, United Kingdom",
+        logo: "https://upload.wikimedia.org/wikipedia/commons/e/e6/Arms_of_the_University_of_Liverpool.svg",
         courses: "373+ Courses",
       },
     ],
-    usa: [
+    ireland: [
+      {
+        name: "Trinity College Dublin",
+        city: "Dublin, Ireland",
+        logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlUM-ELaf5mcow9N9FViwZ0CaZ3lvI2x5xLg&s",
+        courses: "497+ Courses",
+      },
+      {
+        name: "University College Cork",
+        city: "Cork, Ireland",
+        logo: "https://www.ucc.ie/en/media/2017siteassets/images/ucc-central-header-logo.svg",
+        courses: "357+ Courses",
+      },
+      {
+        name: "University College Dublin",
+        city: "Dublin, Ireland",
+        logo: "https://www.ucd.ie/t4media/crest-ucd.svg",
+        courses: "251+ Courses",
+      },
+      {
+        name: "University of Galway",
+        city: "Galway, Ireland",
+        logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVomanQ5XuKjbigBzsX-BKZ-qhIV3mY61pcQ&s",
+        courses: "387+ Courses",
+      },
+      {
+        name: "Dublin City University",
+        city: "Dublin, Ireland",
+        logo: "https://www.dcu.ie/sites/default/files/scholarship_editor/2022-11/DCU_Digital_Logo_Official_Navy_Stacked.png",
+        courses: "489+ Courses",
+      },
+      {
+        name: "University of Limerick",
+        city: "Limerick, Ireland",
+        logo: "https://telme.hypotheses.org/files/2025/03/University-of-Limerick-logo-371x500.png",
+        courses: "286+ Courses",
+      },
+    ],
+    australia: [
       {
         name: "University of Birmingham",
         city: "Birmingham, United Kingdom",
         logo: "https://seeklogo.com/images/U/university-of-birmingham-logo-6B2F6B0E5B-seeklogo.com.png",
         courses: "497+ Courses",
       },
-    ],
-    germany: [
+      {
+        name: "University of Birmingham",
+        city: "Birmingham, United Kingdom",
+        logo: "https://seeklogo.com/images/U/university-of-birmingham-logo-6B2F6B0E5B-seeklogo.com.png",
+        courses: "497+ Courses",
+      },
+      {
+        name: "University of Birmingham",
+        city: "Birmingham, United Kingdom",
+        logo: "https://seeklogo.com/images/U/university-of-birmingham-logo-6B2F6B0E5B-seeklogo.com.png",
+        courses: "497+ Courses",
+      },
+      {
+        name: "University of Birmingham",
+        city: "Birmingham, United Kingdom",
+        logo: "https://seeklogo.com/images/U/university-of-birmingham-logo-6B2F6B0E5B-seeklogo.com.png",
+        courses: "497+ Courses",
+      },
+      {
+        name: "University of Birmingham",
+        city: "Birmingham, United Kingdom",
+        logo: "https://seeklogo.com/images/U/university-of-birmingham-logo-6B2F6B0E5B-seeklogo.com.png",
+        courses: "497+ Courses",
+      },
       {
         name: "University of Birmingham",
         city: "Birmingham, United Kingdom",
@@ -152,8 +212,69 @@ export default function HomePage() {
         logo: "https://seeklogo.com/images/U/university-of-birmingham-logo-6B2F6B0E5B-seeklogo.com.png",
         courses: "497+ Courses",
       },
+      {
+        name: "University of Birmingham",
+        city: "Birmingham, United Kingdom",
+        logo: "https://seeklogo.com/images/U/university-of-birmingham-logo-6B2F6B0E5B-seeklogo.com.png",
+        courses: "497+ Courses",
+      },
+      {
+        name: "University of Birmingham",
+        city: "Birmingham, United Kingdom",
+        logo: "https://seeklogo.com/images/U/university-of-birmingham-logo-6B2F6B0E5B-seeklogo.com.png",
+        courses: "497+ Courses",
+      },
+      {
+        name: "University of Birmingham",
+        city: "Birmingham, United Kingdom",
+        logo: "https://seeklogo.com/images/U/university-of-birmingham-logo-6B2F6B0E5B-seeklogo.com.png",
+        courses: "497+ Courses",
+      },
+      {
+        name: "University of Birmingham",
+        city: "Birmingham, United Kingdom",
+        logo: "https://seeklogo.com/images/U/university-of-birmingham-logo-6B2F6B0E5B-seeklogo.com.png",
+        courses: "497+ Courses",
+      },
+      {
+        name: "University of Birmingham",
+        city: "Birmingham, United Kingdom",
+        logo: "https://seeklogo.com/images/U/university-of-birmingham-logo-6B2F6B0E5B-seeklogo.com.png",
+        courses: "497+ Courses",
+      },
+      
     ],
     dubai: [
+      {
+        name: "University of Birmingham",
+        city: "Birmingham, United Kingdom",
+        logo: "https://seeklogo.com/images/U/university-of-birmingham-logo-6B2F6B0E5B-seeklogo.com.png",
+        courses: "497+ Courses",
+      },
+      {
+        name: "University of Birmingham",
+        city: "Birmingham, United Kingdom",
+        logo: "https://seeklogo.com/images/U/university-of-birmingham-logo-6B2F6B0E5B-seeklogo.com.png",
+        courses: "497+ Courses",
+      },
+      {
+        name: "University of Birmingham",
+        city: "Birmingham, United Kingdom",
+        logo: "https://seeklogo.com/images/U/university-of-birmingham-logo-6B2F6B0E5B-seeklogo.com.png",
+        courses: "497+ Courses",
+      },
+      {
+        name: "University of Birmingham",
+        city: "Birmingham, United Kingdom",
+        logo: "https://seeklogo.com/images/U/university-of-birmingham-logo-6B2F6B0E5B-seeklogo.com.png",
+        courses: "497+ Courses",
+      },
+      {
+        name: "University of Birmingham",
+        city: "Birmingham, United Kingdom",
+        logo: "https://seeklogo.com/images/U/university-of-birmingham-logo-6B2F6B0E5B-seeklogo.com.png",
+        courses: "497+ Courses",
+      },
       {
         name: "University of Birmingham",
         city: "Birmingham, United Kingdom",
@@ -205,7 +326,7 @@ export default function HomePage() {
           {/* Left: Text */}
           <div className="flex-1 flex flex-col justify-center items-start md:items-start">
             <div className="py-12 md:py-0">
-              <h1 className="text-white text-4xl md:text-5xl font-extrabold mb-6 drop-shadow-lg">SOP Edits Overseas - Your Study Abroad Consultant</h1>
+              <h1 className="text-white text-2xl md:text-5xl font-extrabold mb-6 drop-shadow-lg text-center md:text-left">SOP Edits Overseas - Your Study Abroad Consultant</h1>
               <ul className="text-white text-lg space-y-2 drop-shadow-lg">
                 <li className="flex items-center"><span className="mr-2">✔️</span>Courses starting from ₹8 Lakhs*</li>
                 <li className="flex items-center"><span className="mr-2">✔️</span>Scholarship worth ₹10,00,000*</li>
@@ -283,7 +404,7 @@ export default function HomePage() {
           <h2 className="text-4xl font-extrabold  text-center mb-12">
             Why Choose <span className="text-blue-500">Sopedits?</span>
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div>
               <span className="text-6xl mb-4 inline-block"><img src="https://www.svgrepo.com/show/428734/university-academy-school.svg" alt="Partner Universities" width="60" height="60" /></span>
               <div className="text-xl font-bold text-gray-900 mb-2">1000+ <span className="font-normal">Partner Universities</span></div>
@@ -314,11 +435,11 @@ export default function HomePage() {
             <button onClick={() => setActiveTab("uk")} className={`flex items-center gap-2 font-semibold pb-1 border-b-2 ${activeTab === "uk" ? "text-blue-600 border-blue-500" : "text-gray-500 border-transparent hover:text-blue-600"}`}>
               <span role="img" aria-label="UK"><img src="https://publicassets.leverageedu.com/study-abroad/ukFlag.png" alt="United Kingdom" srcSet="https://publicassets.leverageedu.com/study-abroad/ukFlag.png" width="24" height="24" className="rounded-xl" /></span> United Kingdom
             </button>
-            <button onClick={() => setActiveTab("usa")} className={`flex items-center gap-2 font-semibold pb-1 border-b-2 ${activeTab === "usa" ? "text-blue-600 border-blue-500" : "text-gray-500 border-transparent hover:text-blue-600"}`}>
-              <span role="img" aria-label="USA"><img src="https://publicassets.leverageedu.com/study-abroad/usaFlag.png" alt="USA" srcSet="https://publicassets.leverageedu.com/study-abroad/usaFlag.png" width="24" height="24" className="rounded-xl" /></span> USA
+            <button onClick={() => setActiveTab("ireland")} className={`flex items-center gap-2 font-semibold pb-1 border-b-2 ${activeTab === "ireland" ? "text-blue-600 border-blue-500" : "text-gray-500 border-transparent hover:text-blue-600"}`}>
+              <span role="img" aria-label="Ireland"><img src="https://publicassets.leverageedu.com/study-abroad/irelandFlag.png" alt="Ireland" srcSet="https://publicassets.leverageedu.com/study-abroad/irelandFlag.png" width="24" height="24" className="rounded-xl" /></span> Ireland
             </button>
-            <button onClick={() => setActiveTab("germany")} className={`flex items-center gap-2 font-semibold pb-1 border-b-2 ${activeTab === "germany" ? "text-blue-600 border-blue-500" : "text-gray-500 border-transparent hover:text-blue-600"}`}>
-              <span role="img" aria-label="Germany"><img src="https://publicassets.leverageedu.com/study-abroad/germanyFlag.png" alt="Germany" srcSet="https://publicassets.leverageedu.com/study-abroad/germanyFlag.png" width="24" height="24" className="rounded-xl" /></span> Germany
+            <button onClick={() => setActiveTab("australia")} className={`flex items-center gap-2 font-semibold pb-1 border-b-2 ${activeTab === "australia" ? "text-blue-600 border-blue-500" : "text-gray-500 border-transparent hover:text-blue-600"}`}>
+              <span role="img" aria-label="Australia"><img src="https://judiciariesworldwide.fjc.gov/sites/default/files/styles/max_325x325/public/2025-06/australia-flag-round-icon-256.png?itok=LoUO1LkV" alt="Australia" srcSet="https://judiciariesworldwide.fjc.gov/sites/default/files/styles/max_325x325/public/2025-06/australia-flag-round-icon-256.png?itok=LoUO1LkV" width="24" height="24" className="rounded-xl" /></span> Australia
             </button>
             <button onClick={() => setActiveTab("canada")} className={`flex items-center gap-2 font-semibold pb-1 border-b-2 ${activeTab === "canada" ? "text-blue-600 border-blue-500" : "text-gray-500 border-transparent hover:text-blue-600"}`}>
               <span role="img" aria-label="Canada"><img src="https://publicassets.leverageedu.com/study-abroad/canadaFlag.png" alt="Canada" srcSet="https://publicassets.leverageedu.com/study-abroad/canadaFlag.png" width="24" height="24" className="rounded-xl" /></span> Canada
@@ -328,7 +449,7 @@ export default function HomePage() {
             </button>
           </div>
           {/* Universities Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {universities[activeTab].length === 0 ? (
               <div className="col-span-full text-center text-gray-400 text-lg py-12">No universities available for this country yet.</div>
             ) : (
@@ -339,7 +460,7 @@ export default function HomePage() {
                     <div className="font-bold text-lg text-gray-900">{uni.name}</div>
                     <div className="text-gray-500 text-sm">{uni.city}</div>
                   </div>
-                  <span className="ml-auto bg-yellow-200 text-yellow-800 text-xs font-semibold px-3 py-1 rounded">{uni.courses}</span>
+                  <span className="ml-auto mt-12 text-nowrap bg-yellow-200 text-yellow-800 text-[10px] font-semibold px-3 py-1 rounded">{uni.courses}</span>
                 </div>
               )))
             }
@@ -363,7 +484,7 @@ export default function HomePage() {
                   <div className="text-gray-500 text-sm">Delhi ⟶ United Kingdom</div>
                 </div>
               </div>
-              <div className="text-gray-700 mb-2">My Leverage Edu coach made studying abroad a breeze. From university shortlisting to visa application, they guided me every step of the way.</div>
+              <div className="text-gray-700 mb-2">My SOP Edits coach made studying abroad a breeze. From university shortlisting to visa application, they guided me every step of the way.</div>
               <div className="flex items-center gap-2 mt-auto">
                 <span className="bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-xs font-semibold">Data Science</span>
                 <img src="https://seeklogo.com/images/U/university-of-birmingham-logo-6B2F6B0E5B-seeklogo.com.png" alt="University of Birmingham" className="h-6 w-auto ml-auto" />
@@ -378,7 +499,7 @@ export default function HomePage() {
                   <div className="text-gray-500 text-sm">Gujarat ⟶ United Kingdom</div>
                 </div>
               </div>
-              <div className="text-gray-700 mb-2">Extremely satisfied with Leverage Edu for my college application process. Deserves a perfect 5/5 rating!</div>
+              <div className="text-gray-700 mb-2">Extremely satisfied with SOP Edits for my college application process. Deserves a perfect 5/5 rating!</div>
               <div className="flex items-center gap-2 mt-auto">
                 <span className="bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-xs font-semibold">Data Science</span>
                 <img src="https://www.qmul.ac.uk/media/qmul/media/qmul-logo.png" alt="Queen Mary University of London" className="h-6 w-auto ml-auto" />
@@ -393,7 +514,7 @@ export default function HomePage() {
                   <div className="text-gray-500 text-sm">Telangana ⟶ United States</div>
                 </div>
               </div>
-              <div className="text-gray-700 mb-2">Smooth process, supportive loan team, highly satisfied with Leverage Edu's loan experience. Great service!</div>
+              <div className="text-gray-700 mb-2">Smooth process, supportive loan team, highly satisfied with SOP Edits's loan experience. Great service!</div>
               <div className="flex items-center gap-2 mt-auto">
                 <span className="bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-xs font-semibold">Sciences</span>
                 <img src="https://brand.illinois.edu/wp-content/uploads/2022/08/BlockI_primary.png" alt="University of Illinois" className="h-6 w-auto ml-auto" />
@@ -408,7 +529,7 @@ export default function HomePage() {
                   <div className="text-gray-500 text-sm">Karnataka ⟶ United States</div>
                 </div>
               </div>
-              <div className="text-gray-700 mb-2">I applied to 4 universities and I got offers from 2 universities. Leverage Edu helped me through entire process to pursue masters. They have separate teams to handle all this.</div>
+              <div className="text-gray-700 mb-2">I applied to 4 universities and I got offers from 2 universities. SOP Edits helped me through entire process to pursue masters. They have separate teams to handle all this.</div>
               <div className="flex items-center gap-2 mt-auto">
                 <span className="bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-xs font-semibold">Data Science</span>
                 <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Central_Michigan_University_seal.png" alt="Central Michigan University" className="h-6 w-auto ml-auto" />
@@ -423,7 +544,7 @@ export default function HomePage() {
                   <div className="text-gray-500 text-sm">Noida ⟶ Germany</div>
                 </div>
               </div>
-              <div className="text-gray-700 mb-2">Leverage Edu is proactive, detail-oriented, and trustworthy. They made my study abroad dream a breeze. Shoutout to the team for showcasing their excellence!</div>
+              <div className="text-gray-700 mb-2">SOP Edits is proactive, detail-oriented, and trustworthy. They made my study abroad dream a breeze. Shoutout to the team for showcasing their excellence!</div>
               <div className="flex items-center gap-2 mt-auto">
                 <span className="bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-xs font-semibold">Management</span>
                 <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/BSBI_logo.png" alt="BSBI" className="h-6 w-auto ml-auto" />
@@ -438,7 +559,7 @@ export default function HomePage() {
                   <div className="text-gray-500 text-sm">Maharashtra ⟶ Canada</div>
                 </div>
               </div>
-              <div className="text-gray-700 mb-2">Leverage Edu made it incredibly convenient. Deepa, the consultant, provided excellent guidance. I'm thrilled with the all-in-one support for loans, forex, and accommodation.</div>
+              <div className="text-gray-700 mb-2">SOP Edits made it incredibly convenient. Deepa, the consultant, provided excellent guidance. I'm thrilled with the all-in-one support for loans, forex, and accommodation.</div>
               <div className="flex items-center gap-2 mt-auto">
                 <span className="bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-xs font-semibold">Data Science</span>
                 <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Humber_College_Logo.png" alt="Humber" className="h-6 w-auto ml-auto" />
@@ -538,7 +659,7 @@ export default function HomePage() {
       <footer className="bg-white border-t border-gray-200 pt-8 pb-0">
         <div className="container mx-auto px-4 flex flex-col md:flex-row md:justify-between md:items-start">
           <div>
-            <img src="https://sopedits.com/wp-content/uploads/2024/04/091.png" alt="Leverage Edu Logo" className="h-20 mb-2" />
+            <img src="https://sopedits.com/wp-content/uploads/2024/04/091.png" alt="SOP Edits Logo" className="h-20 mb-2" />
             <div className="text-gray-500 text-lg mb-2">A plan for every dream</div>
           </div>
           <div className="flex flex-col md:items-end gap-2 md:gap-4">
