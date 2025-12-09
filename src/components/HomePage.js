@@ -171,117 +171,117 @@ export default function HomePage() {
     ],
     australia: [
       {
-        name: "University of Birmingham",
-        city: "Birmingham, United Kingdom",
-        logo: "https://seeklogo.com/images/U/university-of-birmingham-logo-6B2F6B0E5B-seeklogo.com.png",
+        name: "Australian National University",
+        city: "Canberra, Australia",
+        logo: "https://d1zkbwgd2iyy9p.cloudfront.net/themes/custom/webstyle/favicon.ico",
         courses: "497+ Courses",
       },
       {
-        name: "University of Birmingham",
-        city: "Birmingham, United Kingdom",
-        logo: "https://seeklogo.com/images/U/university-of-birmingham-logo-6B2F6B0E5B-seeklogo.com.png",
-        courses: "497+ Courses",
+        name: "The University of Melbourne",
+        city: "Melbourne, Australia",
+        logo: "https://designsystem.web.unimelb.edu.au/static/img/logo-icon.svg",
+        courses: "297+ Courses",
       },
       {
-        name: "University of Birmingham",
-        city: "Birmingham, United Kingdom",
-        logo: "https://seeklogo.com/images/U/university-of-birmingham-logo-6B2F6B0E5B-seeklogo.com.png",
-        courses: "497+ Courses",
+        name: "University of Sydney",
+        city: "Sydney, Australia",
+        logo: "https://www.sydney.edu.au/etc.clientlibs/corporate-commons/clientlibs/foundation/resources/corporate-frontend/assets/img/favicon/favicon-96x96.png",
+        courses: "264+ Courses",
       },
       {
-        name: "University of Birmingham",
-        city: "Birmingham, United Kingdom",
-        logo: "https://seeklogo.com/images/U/university-of-birmingham-logo-6B2F6B0E5B-seeklogo.com.png",
-        courses: "497+ Courses",
+        name: "University of New South Wales",
+        city: "Sydney, Australia",
+        logo: "https://www.unsw.edu.au/etc.clientlibs/unsw-common/clientlibs/clientlib-unsw-web-resources/resources/icon-192x192.png",
+        courses: "335+ Courses",
       },
       {
-        name: "University of Birmingham",
-        city: "Birmingham, United Kingdom",
-        logo: "https://seeklogo.com/images/U/university-of-birmingham-logo-6B2F6B0E5B-seeklogo.com.png",
-        courses: "497+ Courses",
+        name: "University of Queensland",
+        city: "Brisbane, Australia",
+        logo: "https://universitiesaustralia.edu.au/wp-content/uploads/2019/05/UQ-300x300.png",
+        courses: "297+ Courses",
       },
       {
-        name: "University of Birmingham",
-        city: "Birmingham, United Kingdom",
-        logo: "https://seeklogo.com/images/U/university-of-birmingham-logo-6B2F6B0E5B-seeklogo.com.png",
-        courses: "497+ Courses",
+        name: "Monash University",
+        city: "Melbourne, Australia",
+        logo: "https://www.monash.edu/__data/assets/git_bridge/0006/509343/deploy/mysource_files/favicon-152.png",
+        courses: "258+ Courses",
       },
     ],
     canada: [
       {
-        name: "University of Birmingham",
-        city: "Birmingham, United Kingdom",
-        logo: "https://seeklogo.com/images/U/university-of-birmingham-logo-6B2F6B0E5B-seeklogo.com.png",
-        courses: "497+ Courses",
+        name: "University of British Columbia",
+        city: "Vancouver, Canada",
+        logo: "https://images.seeklogo.com/logo-png/35/1/university-of-british-columbia-logo-png_seeklogo-350128.png",
+        courses: "187+ Courses",
       },
       {
-        name: "University of Birmingham",
-        city: "Birmingham, United Kingdom",
-        logo: "https://seeklogo.com/images/U/university-of-birmingham-logo-6B2F6B0E5B-seeklogo.com.png",
-        courses: "497+ Courses",
+        name: "University of Alberta",
+        city: "Edmonton, Canada",
+        logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU4mhwS_Xb1bJdOpH7pw55NiajRSBYA4e9hA&s",
+        courses: "297+ Courses",
       },
       {
-        name: "University of Birmingham",
-        city: "Birmingham, United Kingdom",
-        logo: "https://seeklogo.com/images/U/university-of-birmingham-logo-6B2F6B0E5B-seeklogo.com.png",
-        courses: "497+ Courses",
+        name: "University of Waterloo",
+        city: "Waterloo, Canada",
+        logo: "https://yt3.googleusercontent.com/ytc/AIdro_nzwRkt4e16fNeYgT9nhQ40TUSzTVNQdEp11aVGTeTb3A=s900-c-k-c0x00ffffff-no-rj",
+        courses: "245+ Courses",
       },
       {
-        name: "University of Birmingham",
-        city: "Birmingham, United Kingdom",
-        logo: "https://seeklogo.com/images/U/university-of-birmingham-logo-6B2F6B0E5B-seeklogo.com.png",
-        courses: "497+ Courses",
+        name: "University of Calgary",
+        city: "Calgary, Canada",
+        logo: "https://yt3.googleusercontent.com/IbSIs7lLMmpZzoUEYoCHPl4XPbkzYW2AnfeW5cCRAe3_OH5ahiwW2xA5qE2hXT5TRlxaprnb=s900-c-k-c0x00ffffff-no-rj",
+        courses: "325+ Courses",
       },
       {
-        name: "University of Birmingham",
-        city: "Birmingham, United Kingdom",
-        logo: "https://seeklogo.com/images/U/university-of-birmingham-logo-6B2F6B0E5B-seeklogo.com.png",
-        courses: "497+ Courses",
+        name: "University of Ottawa",
+        city: "Ottawa, Canada",
+        logo: "https://images.seeklogo.com/logo-png/35/2/university-of-ottawa-logo-png_seeklogo-356159.png",
+        courses: "190+ Courses",
       },
       {
-        name: "University of Birmingham",
-        city: "Birmingham, United Kingdom",
-        logo: "https://seeklogo.com/images/U/university-of-birmingham-logo-6B2F6B0E5B-seeklogo.com.png",
-        courses: "497+ Courses",
+        name: "Dalhousie University",
+        city: "Halifax, Canada",
+        logo: "https://ih1.redbubble.net/image.5065040990.0217/raf,360x360,075,t,fafafa:ca443f4786.jpg",
+        courses: "337+ Courses",
       },
 
     ],
     dubai: [
       {
-        name: "University of Birmingham",
-        city: "Birmingham, United Kingdom",
-        logo: "https://seeklogo.com/images/U/university-of-birmingham-logo-6B2F6B0E5B-seeklogo.com.png",
-        courses: "497+ Courses",
+        name: "American University of Ras Al Khaimah",
+        city: "Ras Al Khaimah, UAE",
+        logo: "https://www.lodplanner.com/wp-content/uploads/american-university-of-ras-al-khaimah-aurak-logo-uae.jpg",
+        courses: "320+ Courses",
+      },
+      {
+        name: "Curtin University Dubai",
+        city: "Dubai, UAE",
+        logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkxeWWDLk86EWJjMBfTV_JMXDC541aRy8e7w&s",
+        courses: "357+ Courses",
+      },
+      {
+        name: "University of Wollongong in Dubai",
+        city: "Dubai, UAE",
+        logo: "https://i.imgur.com/bIsabqw.png",
+        courses: "298+ Courses",
+      },
+      {
+        name: "University Of Bolton",
+        city: "Ras Al Khaimah U.A.E",
+        logo: "https://www.bolton.ac.ae/wp-content/uploads/2024/06/cropped-fav-180x180.png",
+        courses: "339+ Courses",
+      },
+      {
+        name: "Murdoch University Dubai",
+        city: "Dubai, UAE",
+        logo: "https://www.murdochuniversitydubai.com/wp-content/themes/wp-murdoch-dubai/images/favicon.png",
+        courses: "225+ Courses",
       },
       {
         name: "University of Birmingham",
-        city: "Birmingham, United Kingdom",
-        logo: "https://seeklogo.com/images/U/university-of-birmingham-logo-6B2F6B0E5B-seeklogo.com.png",
-        courses: "497+ Courses",
-      },
-      {
-        name: "University of Birmingham",
-        city: "Birmingham, United Kingdom",
-        logo: "https://seeklogo.com/images/U/university-of-birmingham-logo-6B2F6B0E5B-seeklogo.com.png",
-        courses: "497+ Courses",
-      },
-      {
-        name: "University of Birmingham",
-        city: "Birmingham, United Kingdom",
-        logo: "https://seeklogo.com/images/U/university-of-birmingham-logo-6B2F6B0E5B-seeklogo.com.png",
-        courses: "497+ Courses",
-      },
-      {
-        name: "University of Birmingham",
-        city: "Birmingham, United Kingdom",
-        logo: "https://seeklogo.com/images/U/university-of-birmingham-logo-6B2F6B0E5B-seeklogo.com.png",
-        courses: "497+ Courses",
-      },
-      {
-        name: "University of Birmingham",
-        city: "Birmingham, United Kingdom",
-        logo: "https://seeklogo.com/images/U/university-of-birmingham-logo-6B2F6B0E5B-seeklogo.com.png",
-        courses: "497+ Courses",
+        city: "Dubai, United Arab Emirates",
+        logo: "https://upload.wikimedia.org/wikipedia/commons/b/b8/Shield_of_the_University_of_Birmingham.svg",
+        courses: "445+ Courses",
       },
     ],
   };
@@ -293,7 +293,7 @@ export default function HomePage() {
       <header className="fixed top-0 left-0 right-0 flex items-center justify-between px-8 py-0 bg-[#fffffff8] bg-opacity-90 shadow-md z-50">
         <div className="container mx-auto px-4 flex items-center justify-between">
           <div >
-            <img src="https://sopedits.com/wp-content/uploads/2024/04/091.png" alt="SOP Edits Overseas Logo" className="h-14 w-auto mr-2" />
+            <img src="https://sopedits.com/wp-content/uploads/2024/04/091.png" alt="SOP-Edits Overseas Logo" className="h-14 w-auto mr-2" />
           </div>
           <div className="flex items-center gap-3">
             {/* Call icon button */}
@@ -328,7 +328,7 @@ export default function HomePage() {
           {/* Left: Text */}
           <div className="flex-1 flex flex-col justify-center items-start md:items-start">
             <div className="py-12 md:py-0">
-              <h1 className="text-white text-2xl md:text-5xl font-extrabold mb-6 drop-shadow-lg text-center md:text-left">SOP Edits Overseas - Your Study Abroad Consultant</h1>
+              <h1 className="text-white text-2xl md:text-5xl font-extrabold mb-6 drop-shadow-lg text-center md:text-left">SOP-Edits Overseas - Your Study Abroad Consultant</h1>
               <ul className="text-white text-lg space-y-2 drop-shadow-lg">
                 <li className="flex items-center"><span className="mr-2">✔️</span>Courses starting from ₹8 Lakhs*</li>
                 <li className="flex items-center"><span className="mr-2">✔️</span>Scholarship worth ₹10,00,000*</li>
@@ -410,11 +410,11 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Why Choose Sopedits Section */}
+      {/* Why Choose SOP-Edits Section */}
       <section className="bg-[#fff] py-16">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-extrabold  text-center mb-12">
-            Why Choose <span className="text-blue-500">Sopedits?</span>
+            Why Choose <span className="text-blue-500">SOP-Edits Overseas?</span>
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div>
@@ -469,7 +469,7 @@ export default function HomePage() {
                 <div key={idx} className="bg-white rounded-xl shadow p-6 flex items-center gap-4">
                   <img src={uni.logo} alt={uni.name} className="h-16 w-16 object-contain rounded" />
                   <div>
-                    <div className="font-bold text-sm sm:text-base md:text-md text-gray-900 whitespace-nowrap">{uni.name}</div>
+                    <div className="font-bold text-sm sm:text-base md:text-md text-gray-900">{uni.name}</div>
                     <div className="text-gray-500 text-sm">{uni.city}</div>
                   </div>
                   <span className="ml-auto mt-12 text-nowrap bg-yellow-200 text-yellow-800 text-[10px] font-semibold px-3 py-1 rounded">{uni.courses}</span>
@@ -483,23 +483,23 @@ export default function HomePage() {
       <section className="bg-[#fff] py-16">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-extrabold mb-2">
-            60,000+ <span className="text-blue-500">Success Stories</span>
+            50,000+ <span className="text-blue-500">Success Stories</span>
           </h2>
-          <div className="text-gray-500 text-lg mb-10">From Dreamers to Achievers</div>
+          {/* <div className="text-gray-500 text-lg mb-10">From Dreamers to Achievers</div> */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Card 1 */}
             <div className="bg-white rounded-xl shadow p-6 flex flex-col gap-2">
               <div className="flex items-center gap-3 mb-2">
                 <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Kshitij" className="h-12 w-12 rounded-full object-cover" />
                 <div>
-                  <div className="font-semibold text-gray-900">Kshitij</div>
-                  <div className="text-gray-500 text-sm">Delhi ⟶ United Kingdom</div>
+                  <div className="font-semibold text-gray-900">Bharathkumar Patil</div>
+                  <div className="text-gray-500 text-sm">Delhi ⟶ United States</div>
                 </div>
               </div>
-              <div className="text-gray-700 mb-2">My SOP Edits coach made studying abroad a breeze. From university shortlisting to visa application, they guided me every step of the way.</div>
+              <div className="text-gray-700 mb-2">Provided Outstanding support till the Visa arrived They offered personalized advice and strategic planning that greatly enhanced my educational path. Professional, knowledgeable, and truly supportive. Thank you rithika ma'am amaneesh ma'am and team. This educational consultancy is highly recommended!"</div>
               <div className="flex items-center gap-2 mt-auto">
                 <span className="bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-xs font-semibold">Data Science</span>
-                <img src="https://seeklogo.com/images/U/university-of-birmingham-logo-6B2F6B0E5B-seeklogo.com.png" alt="University of Birmingham" className="h-6 w-auto ml-auto" />
+                <img src="https://www.kcl.ac.uk/SiteElements/2017/images/kcl-logo.svg" alt="University of Birmingham" className="h-6 w-auto ml-auto" />
               </div>
             </div>
             {/* Card 2 */}
@@ -507,14 +507,14 @@ export default function HomePage() {
               <div className="flex items-center gap-3 mb-2">
                 <img src="https://randomuser.me/api/portraits/men/33.jpg" alt="Samad" className="h-12 w-12 rounded-full object-cover" />
                 <div>
-                  <div className="font-semibold text-gray-900">Samad</div>
-                  <div className="text-gray-500 text-sm">Gujarat ⟶ United Kingdom</div>
+                  <div className="font-semibold text-gray-900">Devarsh Wali</div>
+                  <div className="text-gray-500 text-sm">Gujarat ⟶ United States</div>
                 </div>
               </div>
-              <div className="text-gray-700 mb-2">Extremely satisfied with SOP Edits for my college application process. Deserves a perfect 5/5 rating!</div>
+              <div className="text-gray-700 mb-2">I had an amazing experience with them. The counsellor assigned for me Nitasha mam. She was really helpful throughout the process and one of their best counsellors. A big thanks to Amaneesh mam who kept motivating me throughout this journey and gave tips and ways to get into the college I wanted to go in.</div>
               <div className="flex items-center gap-2 mt-auto">
                 <span className="bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-xs font-semibold">Data Science</span>
-                <img src="https://www.qmul.ac.uk/media/qmul/media/qmul-logo.png" alt="Queen Mary University of London" className="h-6 w-auto ml-auto" />
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/e6/Arms_of_the_University_of_Liverpool.svg" alt="Queen Mary University of London" className="h-6 w-auto ml-auto" />
               </div>
             </div>
             {/* Card 3 */}
@@ -522,14 +522,14 @@ export default function HomePage() {
               <div className="flex items-center gap-3 mb-2">
                 <img src="https://randomuser.me/api/portraits/men/34.jpg" alt="Shubham" className="h-12 w-12 rounded-full object-cover" />
                 <div>
-                  <div className="font-semibold text-gray-900">Shubham</div>
+                  <div className="font-semibold text-gray-900">Kuldeep Sihag</div>
                   <div className="text-gray-500 text-sm">Telangana ⟶ United States</div>
                 </div>
               </div>
-              <div className="text-gray-700 mb-2">Smooth process, supportive loan team, highly satisfied with SOP Edits's loan experience. Great service!</div>
+              <div className="text-gray-700 mb-2">SOP-Edits overseas is such a great team, i cannot begin to describe. I received my spouse visa for uk through them. They helped in the full process and I received the visa through them in less than month. I was so surprised and not only that, the process with them was so smooth and hassle free.</div>
               <div className="flex items-center gap-2 mt-auto">
                 <span className="bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-xs font-semibold">Sciences</span>
-                <img src="https://brand.illinois.edu/wp-content/uploads/2022/08/BlockI_primary.png" alt="University of Illinois" className="h-6 w-auto ml-auto" />
+                <img src="https://assets.manchester.ac.uk/corporate/images/design/logo-university-of-manchester.png" alt="University of Illinois" className="h-6 w-auto ml-auto" />
               </div>
             </div>
             {/* Card 4 */}
@@ -537,14 +537,14 @@ export default function HomePage() {
               <div className="flex items-center gap-3 mb-2">
                 <img src="https://randomuser.me/api/portraits/men/35.jpg" alt="Naveenkumar" className="h-12 w-12 rounded-full object-cover" />
                 <div>
-                  <div className="font-semibold text-gray-900">Naveenkumar</div>
+                  <div className="font-semibold text-gray-900">Digvijaysingh Rajput</div>
                   <div className="text-gray-500 text-sm">Karnataka ⟶ United States</div>
                 </div>
               </div>
-              <div className="text-gray-700 mb-2">I applied to 4 universities and I got offers from 2 universities. SOP Edits helped me through entire process to pursue masters. They have separate teams to handle all this.</div>
+              <div className="text-gray-700 mb-2">Amneesh ma'am and her team are doing some excellent work in helping students planning for abroad studies. The team is extremely professional and will guide you during the entire process, from tailoring the SOP to the VISA process. I would recommend SOP-Edits to every student planning for abroad studies.</div>
               <div className="flex items-center gap-2 mt-auto">
                 <span className="bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-xs font-semibold">Data Science</span>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Central_Michigan_University_seal.png" alt="Central Michigan University" className="h-6 w-auto ml-auto" />
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHxu9iHxygYxBlKKC_zHGgfH0uTQSZ6z7f2A&s" alt="Central Michigan University" className="h-6 w-auto ml-auto" />
               </div>
             </div>
             {/* Card 5 */}
@@ -552,14 +552,14 @@ export default function HomePage() {
               <div className="flex items-center gap-3 mb-2">
                 <img src="https://randomuser.me/api/portraits/women/36.jpg" alt="Shreya" className="h-12 w-12 rounded-full object-cover" />
                 <div>
-                  <div className="font-semibold text-gray-900">Shreya</div>
-                  <div className="text-gray-500 text-sm">Noida ⟶ Germany</div>
+                  <div className="font-semibold text-gray-900">Humam Ahmad</div>
+                  <div className="text-gray-500 text-sm">Noida ⟶ Dubai</div>
                 </div>
               </div>
-              <div className="text-gray-700 mb-2">SOP Edits is proactive, detail-oriented, and trustworthy. They made my study abroad dream a breeze. Shoutout to the team for showcasing their excellence!</div>
+              <div className="text-gray-700 mb-2">SOP-Edits is one of the best overseas consultancy I have come across. They understand your goals for your future and recommend the best course in the place location/university. Professional Environment, Skill-full people, with a holistic approach. Much recommended!</div>
               <div className="flex items-center gap-2 mt-auto">
                 <span className="bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-xs font-semibold">Management</span>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/BSBI_logo.png" alt="BSBI" className="h-6 w-auto ml-auto" />
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Shield_of_the_University_of_Birmingham.svg/330px-Shield_of_the_University_of_Birmingham.svg.png" alt="BSBI" className="h-6 w-auto ml-auto" />
               </div>
             </div>
             {/* Card 6 */}
@@ -567,14 +567,14 @@ export default function HomePage() {
               <div className="flex items-center gap-3 mb-2">
                 <img src="https://randomuser.me/api/portraits/women/37.jpg" alt="Hanna" className="h-12 w-12 rounded-full object-cover" />
                 <div>
-                  <div className="font-semibold text-gray-900">Hanna</div>
+                  <div className="font-semibold text-gray-900">Harleen Kaur</div>
                   <div className="text-gray-500 text-sm">Maharashtra ⟶ Canada</div>
                 </div>
               </div>
-              <div className="text-gray-700 mb-2">SOP Edits made it incredibly convenient. Deepa, the consultant, provided excellent guidance. I'm thrilled with the all-in-one support for loans, forex, and accommodation.</div>
+              <div className="text-gray-700 mb-2">Had a wonderful experience with SOP-Edits, the team is very knowledgeable and guided my brother throughout the process. They give emphasis to your priorities and guide you keeping your ambitions in mind .</div>
               <div className="flex items-center gap-2 mt-auto">
                 <span className="bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-xs font-semibold">Data Science</span>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Humber_College_Logo.png" alt="Humber" className="h-6 w-auto ml-auto" />
+                <img src="https://www.leeds.ac.uk/site/custom_scripts/campus_map/imgs/icons/loading.png" alt="Humber" className="h-6 w-auto ml-auto" />
               </div>
             </div>
           </div>
@@ -584,7 +584,7 @@ export default function HomePage() {
       <section className="bg-[#f6fbff] py-16">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl md:text-4xl font-extrabold mb-8">
-            Study Abroad from Delhi NCR with <span className="text-blue-500">SOP Edits</span>
+            Study Abroad with <span className="text-blue-500">SOP-Edits Overseas</span>
           </h2>
           <p className="text-lg text-gray-500 mb-4">
             Students from Delhi are known for their ambition and academic capabilities Therefore it only feels natural that Delhi is one of the Indian states sending the most number of students abroad.
@@ -601,7 +601,7 @@ export default function HomePage() {
           </button>
           {showMoreDelhi && (
             <div className="mt-6 text-gray-600 text-base bg-white rounded-xl p-6 shadow">
-              <p className="mb-2">Delhi NCR has emerged as a major hub for students aspiring to study abroad, thanks to its world-class schools, coaching centers, and a culture that values global exposure. SOP Edits has helped thousands of students from Delhi NCR secure admissions to top universities worldwide, providing end-to-end support from profile building to visa counseling.</p>
+              <p className="mb-2">Delhi NCR has emerged as a major hub for students aspiring to study abroad, thanks to its world-class schools, coaching centers, and a culture that values global exposure. SOP-Edits has helped thousands of students from Delhi NCR secure admissions to top universities worldwide, providing end-to-end support from profile building to visa counseling.</p>
               <p>Our expert team understands the unique needs of Delhi students and offers personalized guidance to help you choose the right course, university, and country. We also assist with scholarships, education loans, and pre-departure preparations, ensuring a smooth transition to your dream destination.</p>
             </div>
           )}
@@ -617,15 +617,15 @@ export default function HomePage() {
             {/* Founder Image Top Centered Circle */}
             <div className="flex justify-center mb-6">
               <img
-                src="https://randomuser.me/api/portraits/men/9.jpg"
+                src="/pic.png"
                 alt="Founder"
-                className="rounded-full shadow-lg w-32 h-32 object-cover border-4 border-blue-100"
+                className="rounded-full shadow-lg w-40 h-40 object-cover border-4 border-blue-100"
               />
             </div>
-            <h3 className="text-2xl font-bold text-gray-900 mb-1 text-center">Rahul Sharma</h3>
-            <div className="text-blue-600 font-semibold mb-4 text-center">Founder & CEO, SOP Edits Overseas</div>
+            <h3 className="text-2xl font-bold text-gray-900 mb-1 text-center">Amaneesh Kaur Chandi</h3>
+            <div className="text-blue-600 font-semibold mb-4 text-center">Founder & Director</div>
             <p className="text-xl text-gray-700 leading-relaxed text-center">
-              "At SOP Edits Overseas, our mission is to empower every student to achieve their global education dreams. We believe in personalized guidance, transparency, and unwavering support at every step of your journey. Your ambition inspires us to deliver the best, always."
+              Director, Lead Consultant and Profile Building Expert at SOP-Edits Overseas, holds a B. Tech in Computer Engineering, a diploma in Strategic Management from the London School of Economics, an MBA from ESADE Business School, Barcelona and a Masters in Global Business from Georgetown University, USA. She worked as a Chief Technology Analyst at J.P. Morgan before beginning her career as an Education Counsellor.
             </p>
           </div>
         </div>
@@ -635,7 +635,7 @@ export default function HomePage() {
       <section className="bg-[#f6fbff] py-16">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-extrabold text-center mb-10">
-            <span className="text-blue-500">Featured</span> Videos
+            <span className="text-blue-500">Student</span> Testimonials
           </h2>
           <div className="relative">
             <div id="video-slider" className="flex gap-3 overflow-x-auto scroll-smooth snap-x snap-mandatory pb-2" style={{ scrollbarWidth: 'none' }}>
@@ -671,8 +671,8 @@ export default function HomePage() {
       <footer className="bg-white border-t border-gray-200 pt-8 pb-0">
         <div className="container mx-auto px-4 flex flex-col md:flex-row md:justify-between md:items-start">
           <div>
-            <img src="https://sopedits.com/wp-content/uploads/2024/04/091.png" alt="SOP Edits Logo" className="h-20 mb-2" />
-            <div className="text-gray-500 text-lg mb-2">A plan for every dream</div>
+            <img src="https://sopedits.com/wp-content/uploads/2024/04/091.png" alt="SOP-Edits Logo" className="h-20 mb-2" />
+            {/* <div className="text-gray-500 text-lg mb-2">A plan for every dream</div>cls */}
           </div>
           <div className="flex flex-col md:items-end gap-2 md:gap-4">
             <a href="#" className="text-gray-500 text-lg hover:underline">Privacy Policy</a>
@@ -680,7 +680,7 @@ export default function HomePage() {
           </div>
         </div>
         <div className="container mx-auto px-4">
-          <div className="text-gray-500 text-lg mb-1">Copyright © 2025, SOP Edits</div>
+          <div className="text-gray-500 text-lg mb-1">Copyright © 2025, SOP-Edits</div>
           <div className="text-gray-500 text-lg">All rights reserved.</div>
         </div>
       </footer>

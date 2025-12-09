@@ -184,116 +184,116 @@ function HomePage() {
         ],
         australia: [
             {
-                name: "University of Birmingham",
-                city: "Birmingham, United Kingdom",
-                logo: "https://seeklogo.com/images/U/university-of-birmingham-logo-6B2F6B0E5B-seeklogo.com.png",
+                name: "Australian National University",
+                city: "Canberra, Australia",
+                logo: "https://d1zkbwgd2iyy9p.cloudfront.net/themes/custom/webstyle/favicon.ico",
                 courses: "497+ Courses"
             },
             {
-                name: "University of Birmingham",
-                city: "Birmingham, United Kingdom",
-                logo: "https://seeklogo.com/images/U/university-of-birmingham-logo-6B2F6B0E5B-seeklogo.com.png",
-                courses: "497+ Courses"
+                name: "The University of Melbourne",
+                city: "Melbourne, Australia",
+                logo: "https://designsystem.web.unimelb.edu.au/static/img/logo-icon.svg",
+                courses: "297+ Courses"
             },
             {
-                name: "University of Birmingham",
-                city: "Birmingham, United Kingdom",
-                logo: "https://seeklogo.com/images/U/university-of-birmingham-logo-6B2F6B0E5B-seeklogo.com.png",
-                courses: "497+ Courses"
+                name: "University of Sydney",
+                city: "Sydney, Australia",
+                logo: "https://www.sydney.edu.au/etc.clientlibs/corporate-commons/clientlibs/foundation/resources/corporate-frontend/assets/img/favicon/favicon-96x96.png",
+                courses: "264+ Courses"
             },
             {
-                name: "University of Birmingham",
-                city: "Birmingham, United Kingdom",
-                logo: "https://seeklogo.com/images/U/university-of-birmingham-logo-6B2F6B0E5B-seeklogo.com.png",
-                courses: "497+ Courses"
+                name: "University of New South Wales",
+                city: "Sydney, Australia",
+                logo: "https://www.unsw.edu.au/etc.clientlibs/unsw-common/clientlibs/clientlib-unsw-web-resources/resources/icon-192x192.png",
+                courses: "335+ Courses"
             },
             {
-                name: "University of Birmingham",
-                city: "Birmingham, United Kingdom",
-                logo: "https://seeklogo.com/images/U/university-of-birmingham-logo-6B2F6B0E5B-seeklogo.com.png",
-                courses: "497+ Courses"
+                name: "University of Queensland",
+                city: "Brisbane, Australia",
+                logo: "https://universitiesaustralia.edu.au/wp-content/uploads/2019/05/UQ-300x300.png",
+                courses: "297+ Courses"
             },
             {
-                name: "University of Birmingham",
-                city: "Birmingham, United Kingdom",
-                logo: "https://seeklogo.com/images/U/university-of-birmingham-logo-6B2F6B0E5B-seeklogo.com.png",
-                courses: "497+ Courses"
+                name: "Monash University",
+                city: "Melbourne, Australia",
+                logo: "https://www.monash.edu/__data/assets/git_bridge/0006/509343/deploy/mysource_files/favicon-152.png",
+                courses: "258+ Courses"
             }
         ],
         canada: [
             {
-                name: "University of Birmingham",
-                city: "Birmingham, United Kingdom",
-                logo: "https://seeklogo.com/images/U/university-of-birmingham-logo-6B2F6B0E5B-seeklogo.com.png",
-                courses: "497+ Courses"
+                name: "University of British Columbia",
+                city: "Vancouver, Canada",
+                logo: "https://images.seeklogo.com/logo-png/35/1/university-of-british-columbia-logo-png_seeklogo-350128.png",
+                courses: "187+ Courses"
             },
             {
-                name: "University of Birmingham",
-                city: "Birmingham, United Kingdom",
-                logo: "https://seeklogo.com/images/U/university-of-birmingham-logo-6B2F6B0E5B-seeklogo.com.png",
-                courses: "497+ Courses"
+                name: "University of Alberta",
+                city: "Edmonton, Canada",
+                logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU4mhwS_Xb1bJdOpH7pw55NiajRSBYA4e9hA&s",
+                courses: "297+ Courses"
             },
             {
-                name: "University of Birmingham",
-                city: "Birmingham, United Kingdom",
-                logo: "https://seeklogo.com/images/U/university-of-birmingham-logo-6B2F6B0E5B-seeklogo.com.png",
-                courses: "497+ Courses"
+                name: "University of Waterloo",
+                city: "Waterloo, Canada",
+                logo: "https://yt3.googleusercontent.com/ytc/AIdro_nzwRkt4e16fNeYgT9nhQ40TUSzTVNQdEp11aVGTeTb3A=s900-c-k-c0x00ffffff-no-rj",
+                courses: "245+ Courses"
             },
             {
-                name: "University of Birmingham",
-                city: "Birmingham, United Kingdom",
-                logo: "https://seeklogo.com/images/U/university-of-birmingham-logo-6B2F6B0E5B-seeklogo.com.png",
-                courses: "497+ Courses"
+                name: "University of Calgary",
+                city: "Calgary, Canada",
+                logo: "https://yt3.googleusercontent.com/IbSIs7lLMmpZzoUEYoCHPl4XPbkzYW2AnfeW5cCRAe3_OH5ahiwW2xA5qE2hXT5TRlxaprnb=s900-c-k-c0x00ffffff-no-rj",
+                courses: "325+ Courses"
             },
             {
-                name: "University of Birmingham",
-                city: "Birmingham, United Kingdom",
-                logo: "https://seeklogo.com/images/U/university-of-birmingham-logo-6B2F6B0E5B-seeklogo.com.png",
-                courses: "497+ Courses"
+                name: "University of Ottawa",
+                city: "Ottawa, Canada",
+                logo: "https://images.seeklogo.com/logo-png/35/2/university-of-ottawa-logo-png_seeklogo-356159.png",
+                courses: "190+ Courses"
             },
             {
-                name: "University of Birmingham",
-                city: "Birmingham, United Kingdom",
-                logo: "https://seeklogo.com/images/U/university-of-birmingham-logo-6B2F6B0E5B-seeklogo.com.png",
-                courses: "497+ Courses"
+                name: "Dalhousie University",
+                city: "Halifax, Canada",
+                logo: "https://ih1.redbubble.net/image.5065040990.0217/raf,360x360,075,t,fafafa:ca443f4786.jpg",
+                courses: "337+ Courses"
             }
         ],
         dubai: [
             {
-                name: "University of Birmingham",
-                city: "Birmingham, United Kingdom",
-                logo: "https://seeklogo.com/images/U/university-of-birmingham-logo-6B2F6B0E5B-seeklogo.com.png",
-                courses: "497+ Courses"
+                name: "American University of Ras Al Khaimah",
+                city: "Ras Al Khaimah, UAE",
+                logo: "https://www.lodplanner.com/wp-content/uploads/american-university-of-ras-al-khaimah-aurak-logo-uae.jpg",
+                courses: "320+ Courses"
+            },
+            {
+                name: "Curtin University Dubai",
+                city: "Dubai, UAE",
+                logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkxeWWDLk86EWJjMBfTV_JMXDC541aRy8e7w&s",
+                courses: "357+ Courses"
+            },
+            {
+                name: "University of Wollongong in Dubai",
+                city: "Dubai, UAE",
+                logo: "https://i.imgur.com/bIsabqw.png",
+                courses: "298+ Courses"
+            },
+            {
+                name: "University Of Bolton",
+                city: "Ras Al Khaimah U.A.E",
+                logo: "https://www.bolton.ac.ae/wp-content/uploads/2024/06/cropped-fav-180x180.png",
+                courses: "339+ Courses"
+            },
+            {
+                name: "Murdoch University Dubai",
+                city: "Dubai, UAE",
+                logo: "https://www.murdochuniversitydubai.com/wp-content/themes/wp-murdoch-dubai/images/favicon.png",
+                courses: "225+ Courses"
             },
             {
                 name: "University of Birmingham",
-                city: "Birmingham, United Kingdom",
-                logo: "https://seeklogo.com/images/U/university-of-birmingham-logo-6B2F6B0E5B-seeklogo.com.png",
-                courses: "497+ Courses"
-            },
-            {
-                name: "University of Birmingham",
-                city: "Birmingham, United Kingdom",
-                logo: "https://seeklogo.com/images/U/university-of-birmingham-logo-6B2F6B0E5B-seeklogo.com.png",
-                courses: "497+ Courses"
-            },
-            {
-                name: "University of Birmingham",
-                city: "Birmingham, United Kingdom",
-                logo: "https://seeklogo.com/images/U/university-of-birmingham-logo-6B2F6B0E5B-seeklogo.com.png",
-                courses: "497+ Courses"
-            },
-            {
-                name: "University of Birmingham",
-                city: "Birmingham, United Kingdom",
-                logo: "https://seeklogo.com/images/U/university-of-birmingham-logo-6B2F6B0E5B-seeklogo.com.png",
-                courses: "497+ Courses"
-            },
-            {
-                name: "University of Birmingham",
-                city: "Birmingham, United Kingdom",
-                logo: "https://seeklogo.com/images/U/university-of-birmingham-logo-6B2F6B0E5B-seeklogo.com.png",
-                courses: "497+ Courses"
+                city: "Dubai, United Arab Emirates",
+                logo: "https://upload.wikimedia.org/wikipedia/commons/b/b8/Shield_of_the_University_of_Birmingham.svg",
+                courses: "445+ Courses"
             }
         ]
     };
@@ -308,7 +308,7 @@ function HomePage() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                 src: "https://sopedits.com/wp-content/uploads/2024/04/091.png",
-                                alt: "SOP Edits Overseas Logo",
+                                alt: "SOP-Edits Overseas Logo",
                                 className: "h-14 w-auto mr-2"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/HomePage.js",
@@ -409,7 +409,7 @@ function HomePage() {
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                             className: "text-white text-2xl md:text-5xl font-extrabold mb-6 drop-shadow-lg text-center md:text-left",
-                                            children: "SOP Edits Overseas - Your Study Abroad Consultant"
+                                            children: "SOP-Edits Overseas - Your Study Abroad Consultant"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/HomePage.js",
                                             lineNumber: 331,
@@ -792,7 +792,7 @@ function HomePage() {
                                 "Why Choose ",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "text-blue-500",
-                                    children: "Sopedits?"
+                                    children: "SOP-Edits Overseas?"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/HomePage.js",
                                     lineNumber: 417,
@@ -1207,7 +1207,7 @@ function HomePage() {
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "font-bold text-sm sm:text-base md:text-md text-gray-900 whitespace-nowrap",
+                                                    className: "font-bold text-sm sm:text-base md:text-md text-gray-900",
                                                     children: uni.name
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/HomePage.js",
@@ -1266,7 +1266,7 @@ function HomePage() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                             className: "text-4xl font-extrabold mb-2",
                             children: [
-                                "60,000+ ",
+                                "50,000+ ",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "text-blue-500",
                                     children: "Success Stories"
@@ -1279,14 +1279,6 @@ function HomePage() {
                         }, void 0, true, {
                             fileName: "[project]/src/components/HomePage.js",
                             lineNumber: 485,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "text-gray-500 text-lg mb-10",
-                            children: "From Dreamers to Achievers"
-                        }, void 0, false, {
-                            fileName: "[project]/src/components/HomePage.js",
-                            lineNumber: 488,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1311,7 +1303,7 @@ function HomePage() {
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             className: "font-semibold text-gray-900",
-                                                            children: "Kshitij"
+                                                            children: "Bharathkumar Patil"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/HomePage.js",
                                                             lineNumber: 495,
@@ -1319,7 +1311,7 @@ function HomePage() {
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             className: "text-gray-500 text-sm",
-                                                            children: "Delhi ⟶ United Kingdom"
+                                                            children: "Delhi ⟶ United States"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/HomePage.js",
                                                             lineNumber: 496,
@@ -1339,7 +1331,7 @@ function HomePage() {
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "text-gray-700 mb-2",
-                                            children: "My SOP Edits coach made studying abroad a breeze. From university shortlisting to visa application, they guided me every step of the way."
+                                            children: "Provided Outstanding support till the Visa arrived They offered personalized advice and strategic planning that greatly enhanced my educational path. Professional, knowledgeable, and truly supportive. Thank you rithika ma'am amaneesh ma'am and team. This educational consultancy is highly recommended!\""
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/HomePage.js",
                                             lineNumber: 499,
@@ -1357,7 +1349,7 @@ function HomePage() {
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                                    src: "https://seeklogo.com/images/U/university-of-birmingham-logo-6B2F6B0E5B-seeklogo.com.png",
+                                                    src: "https://www.kcl.ac.uk/SiteElements/2017/images/kcl-logo.svg",
                                                     alt: "University of Birmingham",
                                                     className: "h-6 w-auto ml-auto"
                                                 }, void 0, false, {
@@ -1396,7 +1388,7 @@ function HomePage() {
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             className: "font-semibold text-gray-900",
-                                                            children: "Samad"
+                                                            children: "Devarsh Wali"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/HomePage.js",
                                                             lineNumber: 510,
@@ -1404,7 +1396,7 @@ function HomePage() {
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             className: "text-gray-500 text-sm",
-                                                            children: "Gujarat ⟶ United Kingdom"
+                                                            children: "Gujarat ⟶ United States"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/HomePage.js",
                                                             lineNumber: 511,
@@ -1424,7 +1416,7 @@ function HomePage() {
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "text-gray-700 mb-2",
-                                            children: "Extremely satisfied with SOP Edits for my college application process. Deserves a perfect 5/5 rating!"
+                                            children: "I had an amazing experience with them. The counsellor assigned for me Nitasha mam. She was really helpful throughout the process and one of their best counsellors. A big thanks to Amaneesh mam who kept motivating me throughout this journey and gave tips and ways to get into the college I wanted to go in."
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/HomePage.js",
                                             lineNumber: 514,
@@ -1442,7 +1434,7 @@ function HomePage() {
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                                    src: "https://www.qmul.ac.uk/media/qmul/media/qmul-logo.png",
+                                                    src: "https://upload.wikimedia.org/wikipedia/commons/e/e6/Arms_of_the_University_of_Liverpool.svg",
                                                     alt: "Queen Mary University of London",
                                                     className: "h-6 w-auto ml-auto"
                                                 }, void 0, false, {
@@ -1481,7 +1473,7 @@ function HomePage() {
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             className: "font-semibold text-gray-900",
-                                                            children: "Shubham"
+                                                            children: "Kuldeep Sihag"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/HomePage.js",
                                                             lineNumber: 525,
@@ -1509,7 +1501,7 @@ function HomePage() {
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "text-gray-700 mb-2",
-                                            children: "Smooth process, supportive loan team, highly satisfied with SOP Edits's loan experience. Great service!"
+                                            children: "SOP-Edits overseas is such a great team, i cannot begin to describe. I received my spouse visa for uk through them. They helped in the full process and I received the visa through them in less than month. I was so surprised and not only that, the process with them was so smooth and hassle free."
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/HomePage.js",
                                             lineNumber: 529,
@@ -1527,7 +1519,7 @@ function HomePage() {
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                                    src: "https://brand.illinois.edu/wp-content/uploads/2022/08/BlockI_primary.png",
+                                                    src: "https://assets.manchester.ac.uk/corporate/images/design/logo-university-of-manchester.png",
                                                     alt: "University of Illinois",
                                                     className: "h-6 w-auto ml-auto"
                                                 }, void 0, false, {
@@ -1566,7 +1558,7 @@ function HomePage() {
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             className: "font-semibold text-gray-900",
-                                                            children: "Naveenkumar"
+                                                            children: "Digvijaysingh Rajput"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/HomePage.js",
                                                             lineNumber: 540,
@@ -1594,7 +1586,7 @@ function HomePage() {
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "text-gray-700 mb-2",
-                                            children: "I applied to 4 universities and I got offers from 2 universities. SOP Edits helped me through entire process to pursue masters. They have separate teams to handle all this."
+                                            children: "Amneesh ma'am and her team are doing some excellent work in helping students planning for abroad studies. The team is extremely professional and will guide you during the entire process, from tailoring the SOP to the VISA process. I would recommend SOP-Edits to every student planning for abroad studies."
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/HomePage.js",
                                             lineNumber: 544,
@@ -1612,7 +1604,7 @@ function HomePage() {
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                                    src: "https://upload.wikimedia.org/wikipedia/commons/2/2a/Central_Michigan_University_seal.png",
+                                                    src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHxu9iHxygYxBlKKC_zHGgfH0uTQSZ6z7f2A&s",
                                                     alt: "Central Michigan University",
                                                     className: "h-6 w-auto ml-auto"
                                                 }, void 0, false, {
@@ -1651,7 +1643,7 @@ function HomePage() {
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             className: "font-semibold text-gray-900",
-                                                            children: "Shreya"
+                                                            children: "Humam Ahmad"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/HomePage.js",
                                                             lineNumber: 555,
@@ -1659,7 +1651,7 @@ function HomePage() {
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             className: "text-gray-500 text-sm",
-                                                            children: "Noida ⟶ Germany"
+                                                            children: "Noida ⟶ Dubai"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/HomePage.js",
                                                             lineNumber: 556,
@@ -1679,7 +1671,7 @@ function HomePage() {
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "text-gray-700 mb-2",
-                                            children: "SOP Edits is proactive, detail-oriented, and trustworthy. They made my study abroad dream a breeze. Shoutout to the team for showcasing their excellence!"
+                                            children: "SOP-Edits is one of the best overseas consultancy I have come across. They understand your goals for your future and recommend the best course in the place location/university. Professional Environment, Skill-full people, with a holistic approach. Much recommended!"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/HomePage.js",
                                             lineNumber: 559,
@@ -1697,7 +1689,7 @@ function HomePage() {
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                                    src: "https://upload.wikimedia.org/wikipedia/commons/2/2a/BSBI_logo.png",
+                                                    src: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Shield_of_the_University_of_Birmingham.svg/330px-Shield_of_the_University_of_Birmingham.svg.png",
                                                     alt: "BSBI",
                                                     className: "h-6 w-auto ml-auto"
                                                 }, void 0, false, {
@@ -1736,7 +1728,7 @@ function HomePage() {
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             className: "font-semibold text-gray-900",
-                                                            children: "Hanna"
+                                                            children: "Harleen Kaur"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/HomePage.js",
                                                             lineNumber: 570,
@@ -1764,7 +1756,7 @@ function HomePage() {
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "text-gray-700 mb-2",
-                                            children: "SOP Edits made it incredibly convenient. Deepa, the consultant, provided excellent guidance. I'm thrilled with the all-in-one support for loans, forex, and accommodation."
+                                            children: "Had a wonderful experience with SOP-Edits, the team is very knowledgeable and guided my brother throughout the process. They give emphasis to your priorities and guide you keeping your ambitions in mind ."
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/HomePage.js",
                                             lineNumber: 574,
@@ -1782,7 +1774,7 @@ function HomePage() {
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                                    src: "https://upload.wikimedia.org/wikipedia/commons/7/7a/Humber_College_Logo.png",
+                                                    src: "https://www.leeds.ac.uk/site/custom_scripts/campus_map/imgs/icons/loading.png",
                                                     alt: "Humber",
                                                     className: "h-6 w-auto ml-auto"
                                                 }, void 0, false, {
@@ -1827,14 +1819,14 @@ function HomePage() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                             className: "text-4xl md:text-4xl font-extrabold mb-8",
                             children: [
-                                "Study Abroad from Delhi NCR with ",
+                                "Study Abroad with ",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "text-blue-500",
-                                    children: "SOP Edits"
+                                    children: "SOP-Edits Overseas"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/HomePage.js",
                                     lineNumber: 587,
-                                    columnNumber: 46
+                                    columnNumber: 31
                                 }, this)
                             ]
                         }, void 0, true, {
@@ -1873,7 +1865,7 @@ function HomePage() {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "mb-2",
-                                    children: "Delhi NCR has emerged as a major hub for students aspiring to study abroad, thanks to its world-class schools, coaching centers, and a culture that values global exposure. SOP Edits has helped thousands of students from Delhi NCR secure admissions to top universities worldwide, providing end-to-end support from profile building to visa counseling."
+                                    children: "Delhi NCR has emerged as a major hub for students aspiring to study abroad, thanks to its world-class schools, coaching centers, and a culture that values global exposure. SOP-Edits has helped thousands of students from Delhi NCR secure admissions to top universities worldwide, providing end-to-end support from profile building to visa counseling."
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/HomePage.js",
                                     lineNumber: 604,
@@ -1932,9 +1924,9 @@ function HomePage() {
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "flex justify-center mb-6",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                        src: "https://randomuser.me/api/portraits/men/9.jpg",
+                                        src: "/pic.png",
                                         alt: "Founder",
-                                        className: "rounded-full shadow-lg w-32 h-32 object-cover border-4 border-blue-100"
+                                        className: "rounded-full shadow-lg w-40 h-40 object-cover border-4 border-blue-100"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/HomePage.js",
                                         lineNumber: 619,
@@ -1947,7 +1939,7 @@ function HomePage() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                     className: "text-2xl font-bold text-gray-900 mb-1 text-center",
-                                    children: "Rahul Sharma"
+                                    children: "Amaneesh Kaur Chandi"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/HomePage.js",
                                     lineNumber: 625,
@@ -1955,7 +1947,7 @@ function HomePage() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "text-blue-600 font-semibold mb-4 text-center",
-                                    children: "Founder & CEO, SOP Edits Overseas"
+                                    children: "Founder & Director"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/HomePage.js",
                                     lineNumber: 626,
@@ -1963,7 +1955,7 @@ function HomePage() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-xl text-gray-700 leading-relaxed text-center",
-                                    children: '"At SOP Edits Overseas, our mission is to empower every student to achieve their global education dreams. We believe in personalized guidance, transparency, and unwavering support at every step of your journey. Your ambition inspires us to deliver the best, always."'
+                                    children: "Director, Lead Consultant and Profile Building Expert at SOP-Edits Overseas, holds a B. Tech in Computer Engineering, a diploma in Strategic Management from the London School of Economics, an MBA from ESADE Business School, Barcelona and a Masters in Global Business from Georgetown University, USA. She worked as a Chief Technology Analyst at J.P. Morgan before beginning her career as an Education Counsellor."
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/HomePage.js",
                                     lineNumber: 627,
@@ -1996,13 +1988,13 @@ function HomePage() {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "text-blue-500",
-                                    children: "Featured"
+                                    children: "Student"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/HomePage.js",
                                     lineNumber: 638,
                                     columnNumber: 13
                                 }, this),
-                                " Videos"
+                                " Testimonials"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/HomePage.js",
@@ -2119,7 +2111,7 @@ function HomePage() {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                         src: "https://sopedits.com/wp-content/uploads/2024/04/091.png",
-                                        alt: "SOP Edits Logo",
+                                        alt: "SOP-Edits Logo",
                                         className: "h-20 mb-2"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/HomePage.js",
@@ -2178,7 +2170,7 @@ function HomePage() {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "text-gray-500 text-lg mb-1",
-                                children: "Copyright © 2025, SOP Edits"
+                                children: "Copyright © 2025, SOP-Edits"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/HomePage.js",
                                 lineNumber: 683,
