@@ -2106,26 +2106,16 @@ function HomePage() {
                         className: "container mx-auto px-4 flex flex-col md:flex-row md:justify-between md:items-start",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                        src: "https://sopedits.com/wp-content/uploads/2024/04/091.png",
-                                        alt: "SOP-Edits Logo",
-                                        className: "h-20 mb-2"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/HomePage.js",
-                                        lineNumber: 674,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "text-gray-500 text-lg mb-2",
-                                        children: "A plan for every dream"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/HomePage.js",
-                                        lineNumber: 675,
-                                        columnNumber: 13
-                                    }, this)
-                                ]
-                            }, void 0, true, {
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                    src: "https://sopedits.com/wp-content/uploads/2024/04/091.png",
+                                    alt: "SOP-Edits Logo",
+                                    className: "h-20 mb-2"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/HomePage.js",
+                                    lineNumber: 674,
+                                    columnNumber: 13
+                                }, this)
+                            }, void 0, false, {
                                 fileName: "[project]/src/components/HomePage.js",
                                 lineNumber: 673,
                                 columnNumber: 11
