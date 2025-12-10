@@ -41,7 +41,7 @@ exports.contact = onRequest({ secrets: [SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PA
 		return;
 	}
 	try {
-		const { name, email, phone, state, city, message } = req.body || {};
+		const { name, email, phone, state, city } = req.body || {};
 		if (!name || !email) {
 			res.status(400).json({ error: 'Missing required fields: name, email' });
 			return;
@@ -58,18 +58,51 @@ exports.contact = onRequest({ secrets: [SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PA
 			},
 		});
 
-		const mailOptions = {
-			from: `SOP Edits Contact <${SMTP_USER.value()}>`,
-			to: TO_EMAIL.value() || SMTP_USER.value(),
-			subject: `New enquiry from ${name}`,
-			replyTo: email,
-			text: `Name: ${name}\nEmail: ${email}\nPhone: ${phone || "-"}\nState: ${state || "-"}\nCity: ${city || "-"}\n\nMessage:\n${message || "-"}`,
-			html: `<p><strong>Name:</strong> ${name}</p>
-				<p><strong>Email:</strong> ${email}</p>
-				<p><strong>Phone:</strong> ${phone || '-'}</p>
-				<p><strong>Location:</strong> ${city || '-'}, ${state || '-'}</p>
-				<p><strong>Message:</strong><br/>${(message || '-').replace(/\n/g, '<br/>')}</p>`,
-		};
+				const mailOptions = {
+						from: `SOP Edits Enquiry <${SMTP_USER.value()}>`,
+						to: TO_EMAIL.value() || SMTP_USER.value(),
+						subject: `New enquiry • ${name}`,
+						replyTo: email,
+						text: `Name: ${name}\nEmail: ${email}\nPhone: ${phone || "-"}\nState: ${state || "-"}\nCity: ${city || "-"}`,
+						html: `
+							<div style="font-family:Inter,Segoe UI,Roboto,Arial,sans-serif;background:#f6f7f9;padding:24px;">
+								<table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="max-width:560px;margin:0 auto;background:#ffffff;border-radius:12px;box-shadow:0 2px 10px rgba(0,0,0,0.06);overflow:hidden;">
+									<tr>
+										<td style="padding:16px 20px;background:#0ea5e9;color:#fff;font-weight:700;font-size:16px;">
+											SOP Edits • New Enquiry
+										</td>
+									</tr>
+									<tr>
+										<td style="padding:20px;">
+											<table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="border-collapse:collapse;">
+												<tr>
+													<td style="width:140px;color:#64748b;font-size:13px;padding:8px 0;">Name</td>
+													<td style="color:#0f172a;font-size:14px;padding:8px 0;">${name}</td>
+												</tr>
+												<tr>
+													<td style="width:140px;color:#64748b;font-size:13px;padding:8px 0;">Email</td>
+													<td style="color:#0f172a;font-size:14px;padding:8px 0;">${email}</td>
+												</tr>
+												<tr>
+													<td style="width:140px;color:#64748b;font-size:13px;padding:8px 0;">Phone</td>
+													<td style="color:#0f172a;font-size:14px;padding:8px 0;">${phone || '-'}</td>
+												</tr>
+												<tr>
+													<td style="width:140px;color:#64748b;font-size:13px;padding:8px 0;">State</td>
+													<td style="color:#0f172a;font-size:14px;padding:8px 0;">${state || '-'}</td>
+												</tr>
+												<tr>
+													<td style="width:140px;color:#64748b;font-size:13px;padding:8px 0;">City</td>
+													<td style="color:#0f172a;font-size:14px;padding:8px 0;">${city || '-'}</td>
+												</tr>
+											</table>
+											<div style="margin-top:18px;color:#64748b;font-size:12px;">This email was generated from the website contact form.</div>
+										</td>
+									</tr>
+								</table>
+							</div>
+						`,
+				};
 
 		await transporter.sendMail(mailOptions);
 		logger.info('Contact email sent', { to: TO_EMAIL.value() || SMTP_USER.value() });
