@@ -56,6 +56,13 @@ export default function HomePage() {
   const [phone, setPhone] = React.useState("");
   const [submitting, setSubmitting] = React.useState(false);
   const [message, setMessage] = React.useState("");
+  const [toast, setToast] = React.useState({ show: false, text: "" });
+  const showToast = React.useCallback((text) => {
+    setToast({ show: true, text });
+    const t = setTimeout(() => setToast({ show: false, text: "" }), 3000);
+    return () => clearTimeout(t);
+  }, []);
+
 
   async function handleSubmit(e) {
     e.preventDefault();
@@ -77,7 +84,7 @@ export default function HomePage() {
       if (!res.ok || !data.ok) {
         throw new Error(data.error || "Failed to submit");
       }
-      setMessage("Submitted. We will contact you soon.");
+      showToast("Submitted. We will contact you soon.");
       setName("");
       setEmail("");
       setPhone("");
@@ -85,7 +92,7 @@ export default function HomePage() {
       setSelectedCity("");
     } catch (err) {
       console.error(err);
-      setMessage("Submission failed. Try again.");
+      // setMessage("Submission failed. Try again.");
     } finally {
       setSubmitting(false);
     }
@@ -407,6 +414,16 @@ export default function HomePage() {
               {message && <div className="text-center text-sm mt-2">{message}</div>}
             </form>
           </div>
+          {toast.show && (
+            <div
+              aria-live="polite"
+              className="fixed bottom-4 left-1/2 -translate-x-1/2 z-[9999]"
+            >
+              <div className="bg-green-600 text-white px-4 py-2 rounded-lg shadow-lg text-sm md:text-base">
+                {toast.text}
+              </div>
+            </div>
+          )}
         </div>
       </section>
 

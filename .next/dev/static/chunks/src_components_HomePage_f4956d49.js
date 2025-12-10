@@ -68,6 +68,27 @@ function HomePage() {
     const [phone, setPhone] = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].useState("");
     const [submitting, setSubmitting] = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].useState(false);
     const [message, setMessage] = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].useState("");
+    const [toast, setToast] = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].useState({
+        show: false,
+        text: ""
+    });
+    const showToast = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].useCallback({
+        "HomePage.useCallback[showToast]": (text)=>{
+            setToast({
+                show: true,
+                text
+            });
+            const t = setTimeout({
+                "HomePage.useCallback[showToast].t": ()=>setToast({
+                        show: false,
+                        text: ""
+                    })
+            }["HomePage.useCallback[showToast].t"], 3000);
+            return ({
+                "HomePage.useCallback[showToast]": ()=>clearTimeout(t)
+            })["HomePage.useCallback[showToast]"];
+        }
+    }["HomePage.useCallback[showToast]"], []);
     async function handleSubmit(e) {
         e.preventDefault();
         setMessage("");
@@ -90,7 +111,7 @@ function HomePage() {
             if (!res.ok || !data.ok) {
                 throw new Error(data.error || "Failed to submit");
             }
-            setMessage("Submitted. We will contact you soon.");
+            showToast("Submitted. We will contact you soon.");
             setName("");
             setEmail("");
             setPhone("");
@@ -98,7 +119,7 @@ function HomePage() {
             setSelectedCity("");
         } catch (err) {
             console.error(err);
-            setMessage("Submission failed. Try again.");
+        // setMessage("Submission failed. Try again.");
         } finally{
             setSubmitting(false);
         }
@@ -310,12 +331,12 @@ function HomePage() {
                                 className: "h-14 w-auto mr-2"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/HomePage.js",
-                                lineNumber: 296,
+                                lineNumber: 303,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/HomePage.js",
-                            lineNumber: 295,
+                            lineNumber: 302,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -334,12 +355,12 @@ function HomePage() {
                                         height: "60"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/HomePage.js",
-                                        lineNumber: 306,
+                                        lineNumber: 313,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/HomePage.js",
-                                    lineNumber: 300,
+                                    lineNumber: 307,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -357,29 +378,29 @@ function HomePage() {
                                         height: "60"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/HomePage.js",
-                                        lineNumber: 317,
+                                        lineNumber: 324,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/HomePage.js",
-                                    lineNumber: 309,
+                                    lineNumber: 316,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/HomePage.js",
-                            lineNumber: 298,
+                            lineNumber: 305,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/HomePage.js",
-                    lineNumber: 294,
+                    lineNumber: 301,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/HomePage.js",
-                lineNumber: 293,
+                lineNumber: 300,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -394,7 +415,7 @@ function HomePage() {
                         }
                     }, void 0, false, {
                         fileName: "[project]/src/components/HomePage.js",
-                        lineNumber: 325,
+                        lineNumber: 332,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -410,7 +431,7 @@ function HomePage() {
                                             children: "SOP-Edits Overseas - Your Study Abroad Consultant"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/HomePage.js",
-                                            lineNumber: 331,
+                                            lineNumber: 338,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -424,14 +445,14 @@ function HomePage() {
                                                             children: "✔️"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/HomePage.js",
-                                                            lineNumber: 333,
+                                                            lineNumber: 340,
                                                             columnNumber: 51
                                                         }, this),
                                                         "Courses starting from ₹8 Lakhs*"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/HomePage.js",
-                                                    lineNumber: 333,
+                                                    lineNumber: 340,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -442,14 +463,14 @@ function HomePage() {
                                                             children: "✔️"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/HomePage.js",
-                                                            lineNumber: 334,
+                                                            lineNumber: 341,
                                                             columnNumber: 51
                                                         }, this),
                                                         "Scholarship worth ₹10,00,000*"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/HomePage.js",
-                                                    lineNumber: 334,
+                                                    lineNumber: 341,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -460,31 +481,31 @@ function HomePage() {
                                                             children: "✔️"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/HomePage.js",
-                                                            lineNumber: 335,
+                                                            lineNumber: 342,
                                                             columnNumber: 51
                                                         }, this),
                                                         "Offer letter in less than 48 hours*"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/HomePage.js",
-                                                    lineNumber: 335,
+                                                    lineNumber: 342,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/HomePage.js",
-                                            lineNumber: 332,
+                                            lineNumber: 339,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/HomePage.js",
-                                    lineNumber: 330,
+                                    lineNumber: 337,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/HomePage.js",
-                                lineNumber: 329,
+                                lineNumber: 336,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -496,14 +517,14 @@ function HomePage() {
                                             "Start your Study Abroad ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                 fileName: "[project]/src/components/HomePage.js",
-                                                lineNumber: 341,
+                                                lineNumber: 348,
                                                 columnNumber: 117
                                             }, this),
                                             "Journey"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/HomePage.js",
-                                        lineNumber: 341,
+                                        lineNumber: 348,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
@@ -522,7 +543,7 @@ function HomePage() {
                                                         onChange: (e)=>setName(e.target.value)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/HomePage.js",
-                                                        lineNumber: 344,
+                                                        lineNumber: 351,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -530,13 +551,13 @@ function HomePage() {
                                                         children: "Name*"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/HomePage.js",
-                                                        lineNumber: 345,
+                                                        lineNumber: 352,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/HomePage.js",
-                                                lineNumber: 343,
+                                                lineNumber: 350,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -551,7 +572,7 @@ function HomePage() {
                                                         onChange: (e)=>setEmail(e.target.value)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/HomePage.js",
-                                                        lineNumber: 348,
+                                                        lineNumber: 355,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -559,13 +580,13 @@ function HomePage() {
                                                         children: "Enter Email Address*"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/HomePage.js",
-                                                        lineNumber: 349,
+                                                        lineNumber: 356,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/HomePage.js",
-                                                lineNumber: 347,
+                                                lineNumber: 354,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -595,7 +616,7 @@ function HomePage() {
                                                         }
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/HomePage.js",
-                                                        lineNumber: 352,
+                                                        lineNumber: 359,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -603,13 +624,13 @@ function HomePage() {
                                                         children: "Mobile number*"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/HomePage.js",
-                                                        lineNumber: 366,
+                                                        lineNumber: 373,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/HomePage.js",
-                                                lineNumber: 351,
+                                                lineNumber: 358,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -629,7 +650,7 @@ function HomePage() {
                                                                 children: "Select State"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/HomePage.js",
-                                                                lineNumber: 380,
+                                                                lineNumber: 387,
                                                                 columnNumber: 19
                                                             }, this),
                                                             states.map((st)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -637,13 +658,13 @@ function HomePage() {
                                                                     children: st
                                                                 }, st, false, {
                                                                     fileName: "[project]/src/components/HomePage.js",
-                                                                    lineNumber: 382,
+                                                                    lineNumber: 389,
                                                                     columnNumber: 21
                                                                 }, this))
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/HomePage.js",
-                                                        lineNumber: 371,
+                                                        lineNumber: 378,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -651,13 +672,13 @@ function HomePage() {
                                                         children: "Current State"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/HomePage.js",
-                                                        lineNumber: 385,
+                                                        lineNumber: 392,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/HomePage.js",
-                                                lineNumber: 370,
+                                                lineNumber: 377,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -673,7 +694,7 @@ function HomePage() {
                                                         required: true
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/HomePage.js",
-                                                        lineNumber: 390,
+                                                        lineNumber: 397,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -681,13 +702,13 @@ function HomePage() {
                                                         children: "City*"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/HomePage.js",
-                                                        lineNumber: 399,
+                                                        lineNumber: 406,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/HomePage.js",
-                                                lineNumber: 389,
+                                                lineNumber: 396,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -699,7 +720,7 @@ function HomePage() {
                                                         defaultChecked: true
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/HomePage.js",
-                                                        lineNumber: 403,
+                                                        lineNumber: 410,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -712,7 +733,7 @@ function HomePage() {
                                                                 children: "terms"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/HomePage.js",
-                                                                lineNumber: 404,
+                                                                lineNumber: 411,
                                                                 columnNumber: 85
                                                             }, this),
                                                             " & ",
@@ -722,19 +743,19 @@ function HomePage() {
                                                                 children: "privacy policy"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/HomePage.js",
-                                                                lineNumber: 404,
+                                                                lineNumber: 411,
                                                                 columnNumber: 145
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/HomePage.js",
-                                                        lineNumber: 404,
+                                                        lineNumber: 411,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/HomePage.js",
-                                                lineNumber: 402,
+                                                lineNumber: 409,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -744,7 +765,7 @@ function HomePage() {
                                                 children: submitting ? "Submitting..." : "Book your free consultation"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/HomePage.js",
-                                                lineNumber: 406,
+                                                lineNumber: 413,
                                                 columnNumber: 15
                                             }, this),
                                             message && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -752,31 +773,47 @@ function HomePage() {
                                                 children: message
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/HomePage.js",
-                                                lineNumber: 407,
+                                                lineNumber: 414,
                                                 columnNumber: 27
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/HomePage.js",
-                                        lineNumber: 342,
+                                        lineNumber: 349,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/HomePage.js",
-                                lineNumber: 340,
+                                lineNumber: 347,
                                 columnNumber: 11
+                            }, this),
+                            toast.show && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                "aria-live": "polite",
+                                className: "fixed bottom-4 left-1/2 -translate-x-1/2 z-[9999]",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "bg-green-600 text-white px-4 py-2 rounded-lg shadow-lg text-sm md:text-base",
+                                    children: toast.text
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/HomePage.js",
+                                    lineNumber: 422,
+                                    columnNumber: 15
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/HomePage.js",
+                                lineNumber: 418,
+                                columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/HomePage.js",
-                        lineNumber: 327,
+                        lineNumber: 334,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/HomePage.js",
-                lineNumber: 323,
+                lineNumber: 330,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -793,13 +830,13 @@ function HomePage() {
                                     children: "SOP-Edits Overseas?"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/HomePage.js",
-                                    lineNumber: 417,
+                                    lineNumber: 434,
                                     columnNumber: 24
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/HomePage.js",
-                            lineNumber: 416,
+                            lineNumber: 433,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -816,12 +853,12 @@ function HomePage() {
                                                 height: "60"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/HomePage.js",
-                                                lineNumber: 421,
+                                                lineNumber: 438,
                                                 columnNumber: 60
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/HomePage.js",
-                                            lineNumber: 421,
+                                            lineNumber: 438,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -833,19 +870,19 @@ function HomePage() {
                                                     children: "Partner Universities"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/HomePage.js",
-                                                    lineNumber: 422,
+                                                    lineNumber: 439,
                                                     columnNumber: 99
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/HomePage.js",
-                                            lineNumber: 422,
+                                            lineNumber: 439,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/HomePage.js",
-                                    lineNumber: 420,
+                                    lineNumber: 437,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -859,12 +896,12 @@ function HomePage() {
                                                 height: "60"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/HomePage.js",
-                                                lineNumber: 425,
+                                                lineNumber: 442,
                                                 columnNumber: 60
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/HomePage.js",
-                                            lineNumber: 425,
+                                            lineNumber: 442,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -876,19 +913,19 @@ function HomePage() {
                                                     children: "₹8 Lakhs*"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/HomePage.js",
-                                                    lineNumber: 426,
+                                                    lineNumber: 443,
                                                     columnNumber: 109
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/HomePage.js",
-                                            lineNumber: 426,
+                                            lineNumber: 443,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/HomePage.js",
-                                    lineNumber: 424,
+                                    lineNumber: 441,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -902,12 +939,12 @@ function HomePage() {
                                                 height: "60"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/HomePage.js",
-                                                lineNumber: 429,
+                                                lineNumber: 446,
                                                 columnNumber: 60
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/HomePage.js",
-                                            lineNumber: 429,
+                                            lineNumber: 446,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -919,19 +956,19 @@ function HomePage() {
                                                     children: "Countries"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/HomePage.js",
-                                                    lineNumber: 430,
+                                                    lineNumber: 447,
                                                     columnNumber: 97
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/HomePage.js",
-                                            lineNumber: 430,
+                                            lineNumber: 447,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/HomePage.js",
-                                    lineNumber: 428,
+                                    lineNumber: 445,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -945,12 +982,12 @@ function HomePage() {
                                                 height: "60"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/HomePage.js",
-                                                lineNumber: 433,
+                                                lineNumber: 450,
                                                 columnNumber: 60
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/HomePage.js",
-                                            lineNumber: 433,
+                                            lineNumber: 450,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -962,36 +999,36 @@ function HomePage() {
                                                     children: "Success Stories"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/HomePage.js",
-                                                    lineNumber: 434,
+                                                    lineNumber: 451,
                                                     columnNumber: 100
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/HomePage.js",
-                                            lineNumber: 434,
+                                            lineNumber: 451,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/HomePage.js",
-                                    lineNumber: 432,
+                                    lineNumber: 449,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/HomePage.js",
-                            lineNumber: 419,
+                            lineNumber: 436,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/HomePage.js",
-                    lineNumber: 415,
+                    lineNumber: 432,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/HomePage.js",
-                lineNumber: 414,
+                lineNumber: 431,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1008,13 +1045,13 @@ function HomePage() {
                                     children: "Study Abroad"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/HomePage.js",
-                                    lineNumber: 443,
+                                    lineNumber: 460,
                                     columnNumber: 33
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/HomePage.js",
-                            lineNumber: 442,
+                            lineNumber: 459,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1036,19 +1073,19 @@ function HomePage() {
                                                 className: "rounded-xl"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/HomePage.js",
-                                                lineNumber: 448,
+                                                lineNumber: 465,
                                                 columnNumber: 48
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/HomePage.js",
-                                            lineNumber: 448,
+                                            lineNumber: 465,
                                             columnNumber: 15
                                         }, this),
                                         " United Kingdom"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/HomePage.js",
-                                    lineNumber: 447,
+                                    lineNumber: 464,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1067,19 +1104,19 @@ function HomePage() {
                                                 className: "rounded-xl"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/HomePage.js",
-                                                lineNumber: 451,
+                                                lineNumber: 468,
                                                 columnNumber: 53
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/HomePage.js",
-                                            lineNumber: 451,
+                                            lineNumber: 468,
                                             columnNumber: 15
                                         }, this),
                                         " Ireland"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/HomePage.js",
-                                    lineNumber: 450,
+                                    lineNumber: 467,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1098,19 +1135,19 @@ function HomePage() {
                                                 className: "rounded-xl"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/HomePage.js",
-                                                lineNumber: 454,
+                                                lineNumber: 471,
                                                 columnNumber: 55
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/HomePage.js",
-                                            lineNumber: 454,
+                                            lineNumber: 471,
                                             columnNumber: 15
                                         }, this),
                                         " Australia"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/HomePage.js",
-                                    lineNumber: 453,
+                                    lineNumber: 470,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1129,19 +1166,19 @@ function HomePage() {
                                                 className: "rounded-xl"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/HomePage.js",
-                                                lineNumber: 457,
+                                                lineNumber: 474,
                                                 columnNumber: 52
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/HomePage.js",
-                                            lineNumber: 457,
+                                            lineNumber: 474,
                                             columnNumber: 15
                                         }, this),
                                         " Canada"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/HomePage.js",
-                                    lineNumber: 456,
+                                    lineNumber: 473,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1160,25 +1197,25 @@ function HomePage() {
                                                 className: "rounded-xl"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/HomePage.js",
-                                                lineNumber: 460,
+                                                lineNumber: 477,
                                                 columnNumber: 51
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/HomePage.js",
-                                            lineNumber: 460,
+                                            lineNumber: 477,
                                             columnNumber: 15
                                         }, this),
                                         " Dubai"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/HomePage.js",
-                                    lineNumber: 459,
+                                    lineNumber: 476,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/HomePage.js",
-                            lineNumber: 446,
+                            lineNumber: 463,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1188,7 +1225,7 @@ function HomePage() {
                                 children: "No universities available for this country yet."
                             }, void 0, false, {
                                 fileName: "[project]/src/components/HomePage.js",
-                                lineNumber: 466,
+                                lineNumber: 483,
                                 columnNumber: 15
                             }, this) : universities[activeTab].map((uni, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "bg-white rounded-xl shadow p-6 flex items-center gap-4",
@@ -1199,7 +1236,7 @@ function HomePage() {
                                             className: "h-16 w-16 object-contain rounded"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/HomePage.js",
-                                            lineNumber: 470,
+                                            lineNumber: 487,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1209,7 +1246,7 @@ function HomePage() {
                                                     children: uni.name
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/HomePage.js",
-                                                    lineNumber: 472,
+                                                    lineNumber: 489,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1217,13 +1254,13 @@ function HomePage() {
                                                     children: uni.city
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/HomePage.js",
-                                                    lineNumber: 473,
+                                                    lineNumber: 490,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/HomePage.js",
-                                            lineNumber: 471,
+                                            lineNumber: 488,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1231,29 +1268,29 @@ function HomePage() {
                                             children: uni.courses
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/HomePage.js",
-                                            lineNumber: 475,
+                                            lineNumber: 492,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, idx, true, {
                                     fileName: "[project]/src/components/HomePage.js",
-                                    lineNumber: 469,
+                                    lineNumber: 486,
                                     columnNumber: 17
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/components/HomePage.js",
-                            lineNumber: 464,
+                            lineNumber: 481,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/HomePage.js",
-                    lineNumber: 441,
+                    lineNumber: 458,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/HomePage.js",
-                lineNumber: 440,
+                lineNumber: 457,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1270,13 +1307,13 @@ function HomePage() {
                                     children: "Success Stories"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/HomePage.js",
-                                    lineNumber: 486,
+                                    lineNumber: 503,
                                     columnNumber: 21
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/HomePage.js",
-                            lineNumber: 485,
+                            lineNumber: 502,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1294,7 +1331,7 @@ function HomePage() {
                                                     className: "h-12 w-12 rounded-full object-cover"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/HomePage.js",
-                                                    lineNumber: 493,
+                                                    lineNumber: 510,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1304,7 +1341,7 @@ function HomePage() {
                                                             children: "Bharathkumar Patil"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/HomePage.js",
-                                                            lineNumber: 495,
+                                                            lineNumber: 512,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1312,19 +1349,19 @@ function HomePage() {
                                                             children: "Delhi ⟶ United States"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/HomePage.js",
-                                                            lineNumber: 496,
+                                                            lineNumber: 513,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/HomePage.js",
-                                                    lineNumber: 494,
+                                                    lineNumber: 511,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/HomePage.js",
-                                            lineNumber: 492,
+                                            lineNumber: 509,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1332,7 +1369,7 @@ function HomePage() {
                                             children: "Provided Outstanding support till the Visa arrived They offered personalized advice and strategic planning that greatly enhanced my educational path. Professional, knowledgeable, and truly supportive. Thank you rithika ma'am amaneesh ma'am and team. This educational consultancy is highly recommended!\""
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/HomePage.js",
-                                            lineNumber: 499,
+                                            lineNumber: 516,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1343,7 +1380,7 @@ function HomePage() {
                                                     children: "Data Science"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/HomePage.js",
-                                                    lineNumber: 501,
+                                                    lineNumber: 518,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -1352,19 +1389,19 @@ function HomePage() {
                                                     className: "h-6 w-auto ml-auto"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/HomePage.js",
-                                                    lineNumber: 502,
+                                                    lineNumber: 519,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/HomePage.js",
-                                            lineNumber: 500,
+                                            lineNumber: 517,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/HomePage.js",
-                                    lineNumber: 491,
+                                    lineNumber: 508,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1379,7 +1416,7 @@ function HomePage() {
                                                     className: "h-12 w-12 rounded-full object-cover"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/HomePage.js",
-                                                    lineNumber: 508,
+                                                    lineNumber: 525,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1389,7 +1426,7 @@ function HomePage() {
                                                             children: "Devarsh Wali"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/HomePage.js",
-                                                            lineNumber: 510,
+                                                            lineNumber: 527,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1397,19 +1434,19 @@ function HomePage() {
                                                             children: "Gujarat ⟶ United States"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/HomePage.js",
-                                                            lineNumber: 511,
+                                                            lineNumber: 528,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/HomePage.js",
-                                                    lineNumber: 509,
+                                                    lineNumber: 526,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/HomePage.js",
-                                            lineNumber: 507,
+                                            lineNumber: 524,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1417,7 +1454,7 @@ function HomePage() {
                                             children: "I had an amazing experience with them. The counsellor assigned for me Nitasha mam. She was really helpful throughout the process and one of their best counsellors. A big thanks to Amaneesh mam who kept motivating me throughout this journey and gave tips and ways to get into the college I wanted to go in."
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/HomePage.js",
-                                            lineNumber: 514,
+                                            lineNumber: 531,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1428,7 +1465,7 @@ function HomePage() {
                                                     children: "Data Science"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/HomePage.js",
-                                                    lineNumber: 516,
+                                                    lineNumber: 533,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -1437,19 +1474,19 @@ function HomePage() {
                                                     className: "h-6 w-auto ml-auto"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/HomePage.js",
-                                                    lineNumber: 517,
+                                                    lineNumber: 534,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/HomePage.js",
-                                            lineNumber: 515,
+                                            lineNumber: 532,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/HomePage.js",
-                                    lineNumber: 506,
+                                    lineNumber: 523,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1464,7 +1501,7 @@ function HomePage() {
                                                     className: "h-12 w-12 rounded-full object-cover"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/HomePage.js",
-                                                    lineNumber: 523,
+                                                    lineNumber: 540,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1474,7 +1511,7 @@ function HomePage() {
                                                             children: "Kuldeep Sihag"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/HomePage.js",
-                                                            lineNumber: 525,
+                                                            lineNumber: 542,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1482,19 +1519,19 @@ function HomePage() {
                                                             children: "Telangana ⟶ United States"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/HomePage.js",
-                                                            lineNumber: 526,
+                                                            lineNumber: 543,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/HomePage.js",
-                                                    lineNumber: 524,
+                                                    lineNumber: 541,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/HomePage.js",
-                                            lineNumber: 522,
+                                            lineNumber: 539,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1502,7 +1539,7 @@ function HomePage() {
                                             children: "SOP-Edits overseas is such a great team, i cannot begin to describe. I received my spouse visa for uk through them. They helped in the full process and I received the visa through them in less than month. I was so surprised and not only that, the process with them was so smooth and hassle free."
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/HomePage.js",
-                                            lineNumber: 529,
+                                            lineNumber: 546,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1513,7 +1550,7 @@ function HomePage() {
                                                     children: "Sciences"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/HomePage.js",
-                                                    lineNumber: 531,
+                                                    lineNumber: 548,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -1522,19 +1559,19 @@ function HomePage() {
                                                     className: "h-6 w-auto ml-auto"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/HomePage.js",
-                                                    lineNumber: 532,
+                                                    lineNumber: 549,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/HomePage.js",
-                                            lineNumber: 530,
+                                            lineNumber: 547,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/HomePage.js",
-                                    lineNumber: 521,
+                                    lineNumber: 538,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1549,7 +1586,7 @@ function HomePage() {
                                                     className: "h-12 w-12 rounded-full object-cover"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/HomePage.js",
-                                                    lineNumber: 538,
+                                                    lineNumber: 555,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1559,7 +1596,7 @@ function HomePage() {
                                                             children: "Soniya Pillai"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/HomePage.js",
-                                                            lineNumber: 540,
+                                                            lineNumber: 557,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1567,19 +1604,19 @@ function HomePage() {
                                                             children: "Karnataka ⟶ United States"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/HomePage.js",
-                                                            lineNumber: 541,
+                                                            lineNumber: 558,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/HomePage.js",
-                                                    lineNumber: 539,
+                                                    lineNumber: 556,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/HomePage.js",
-                                            lineNumber: 537,
+                                            lineNumber: 554,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1587,7 +1624,7 @@ function HomePage() {
                                             children: "Amneesh ma'am and her team are doing some excellent work in helping students planning for abroad studies. The team is extremely professional and will guide you during the entire process, from tailoring the SOP to the VISA process. I would recommend SOP-Edits to every student planning for abroad studies."
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/HomePage.js",
-                                            lineNumber: 544,
+                                            lineNumber: 561,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1598,7 +1635,7 @@ function HomePage() {
                                                     children: "Data Science"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/HomePage.js",
-                                                    lineNumber: 546,
+                                                    lineNumber: 563,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -1607,19 +1644,19 @@ function HomePage() {
                                                     className: "h-6 w-auto ml-auto"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/HomePage.js",
-                                                    lineNumber: 547,
+                                                    lineNumber: 564,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/HomePage.js",
-                                            lineNumber: 545,
+                                            lineNumber: 562,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/HomePage.js",
-                                    lineNumber: 536,
+                                    lineNumber: 553,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1634,7 +1671,7 @@ function HomePage() {
                                                     className: "h-12 w-12 rounded-full object-cover"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/HomePage.js",
-                                                    lineNumber: 553,
+                                                    lineNumber: 570,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1644,7 +1681,7 @@ function HomePage() {
                                                             children: "Humam Ahmad"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/HomePage.js",
-                                                            lineNumber: 555,
+                                                            lineNumber: 572,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1652,19 +1689,19 @@ function HomePage() {
                                                             children: "Noida ⟶ Dubai"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/HomePage.js",
-                                                            lineNumber: 556,
+                                                            lineNumber: 573,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/HomePage.js",
-                                                    lineNumber: 554,
+                                                    lineNumber: 571,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/HomePage.js",
-                                            lineNumber: 552,
+                                            lineNumber: 569,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1672,7 +1709,7 @@ function HomePage() {
                                             children: "SOP-Edits is one of the best overseas consultancy I have come across. They understand your goals for your future and recommend the best course in the place location/university. Professional Environment, Skill-full people, with a holistic approach. Much recommended!"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/HomePage.js",
-                                            lineNumber: 559,
+                                            lineNumber: 576,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1683,7 +1720,7 @@ function HomePage() {
                                                     children: "Management"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/HomePage.js",
-                                                    lineNumber: 561,
+                                                    lineNumber: 578,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -1692,19 +1729,19 @@ function HomePage() {
                                                     className: "h-6 w-auto ml-auto"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/HomePage.js",
-                                                    lineNumber: 562,
+                                                    lineNumber: 579,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/HomePage.js",
-                                            lineNumber: 560,
+                                            lineNumber: 577,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/HomePage.js",
-                                    lineNumber: 551,
+                                    lineNumber: 568,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1719,7 +1756,7 @@ function HomePage() {
                                                     className: "h-12 w-12 rounded-full object-cover"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/HomePage.js",
-                                                    lineNumber: 568,
+                                                    lineNumber: 585,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1729,7 +1766,7 @@ function HomePage() {
                                                             children: "Harleen Kaur"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/HomePage.js",
-                                                            lineNumber: 570,
+                                                            lineNumber: 587,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1737,19 +1774,19 @@ function HomePage() {
                                                             children: "Maharashtra ⟶ Canada"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/HomePage.js",
-                                                            lineNumber: 571,
+                                                            lineNumber: 588,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/HomePage.js",
-                                                    lineNumber: 569,
+                                                    lineNumber: 586,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/HomePage.js",
-                                            lineNumber: 567,
+                                            lineNumber: 584,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1757,7 +1794,7 @@ function HomePage() {
                                             children: "Had a wonderful experience with SOP-Edits, the team is very knowledgeable and guided my brother throughout the process. They give emphasis to your priorities and guide you keeping your ambitions in mind ."
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/HomePage.js",
-                                            lineNumber: 574,
+                                            lineNumber: 591,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1768,7 +1805,7 @@ function HomePage() {
                                                     children: "Data Science"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/HomePage.js",
-                                                    lineNumber: 576,
+                                                    lineNumber: 593,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -1777,36 +1814,36 @@ function HomePage() {
                                                     className: "h-6 w-auto ml-auto"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/HomePage.js",
-                                                    lineNumber: 577,
+                                                    lineNumber: 594,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/HomePage.js",
-                                            lineNumber: 575,
+                                            lineNumber: 592,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/HomePage.js",
-                                    lineNumber: 566,
+                                    lineNumber: 583,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/HomePage.js",
-                            lineNumber: 489,
+                            lineNumber: 506,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/HomePage.js",
-                    lineNumber: 484,
+                    lineNumber: 501,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/HomePage.js",
-                lineNumber: 483,
+                lineNumber: 500,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1823,13 +1860,13 @@ function HomePage() {
                                     children: "SOP-Edits Overseas"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/HomePage.js",
-                                    lineNumber: 587,
+                                    lineNumber: 604,
                                     columnNumber: 31
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/HomePage.js",
-                            lineNumber: 586,
+                            lineNumber: 603,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1837,7 +1874,7 @@ function HomePage() {
                             children: "Students from Delhi are known for their ambition and academic capabilities Therefore it only feels natural that Delhi is one of the Indian states sending the most number of students abroad."
                         }, void 0, false, {
                             fileName: "[project]/src/components/HomePage.js",
-                            lineNumber: 589,
+                            lineNumber: 606,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1845,7 +1882,7 @@ function HomePage() {
                             children: "Whether you have decided to study abroad or are thinking about it you are about to make one of the most important decisions in your life. However there is a lot to focus on – from which university and course would be the best to how to find the most affordable and safe accommodation in an entirely new place."
                         }, void 0, false, {
                             fileName: "[project]/src/components/HomePage.js",
-                            lineNumber: 592,
+                            lineNumber: 609,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1855,7 +1892,7 @@ function HomePage() {
                             children: showMoreDelhi ? "Read less ..." : "Read more ..."
                         }, void 0, false, {
                             fileName: "[project]/src/components/HomePage.js",
-                            lineNumber: 595,
+                            lineNumber: 612,
                             columnNumber: 11
                         }, this),
                         showMoreDelhi && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1866,31 +1903,31 @@ function HomePage() {
                                     children: "Delhi NCR has emerged as a major hub for students aspiring to study abroad, thanks to its world-class schools, coaching centers, and a culture that values global exposure. SOP-Edits has helped thousands of students from Delhi NCR secure admissions to top universities worldwide, providing end-to-end support from profile building to visa counseling."
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/HomePage.js",
-                                    lineNumber: 604,
+                                    lineNumber: 621,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     children: "Our expert team understands the unique needs of Delhi students and offers personalized guidance to help you choose the right course, university, and country. We also assist with scholarships, education loans, and pre-departure preparations, ensuring a smooth transition to your dream destination."
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/HomePage.js",
-                                    lineNumber: 605,
+                                    lineNumber: 622,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/HomePage.js",
-                            lineNumber: 603,
+                            lineNumber: 620,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/HomePage.js",
-                    lineNumber: 585,
+                    lineNumber: 602,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/HomePage.js",
-                lineNumber: 584,
+                lineNumber: 601,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1906,14 +1943,14 @@ function HomePage() {
                                     children: "Founder's"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/HomePage.js",
-                                    lineNumber: 614,
+                                    lineNumber: 631,
                                     columnNumber: 13
                                 }, this),
                                 " Note"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/HomePage.js",
-                            lineNumber: 613,
+                            lineNumber: 630,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1927,12 +1964,12 @@ function HomePage() {
                                         className: "rounded-full shadow-lg w-40 h-40 object-cover border-4 border-blue-100"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/HomePage.js",
-                                        lineNumber: 619,
+                                        lineNumber: 636,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/HomePage.js",
-                                    lineNumber: 618,
+                                    lineNumber: 635,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1940,7 +1977,7 @@ function HomePage() {
                                     children: "Amaneesh Kaur Chandi"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/HomePage.js",
-                                    lineNumber: 625,
+                                    lineNumber: 642,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1948,7 +1985,7 @@ function HomePage() {
                                     children: "Founder & Director"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/HomePage.js",
-                                    lineNumber: 626,
+                                    lineNumber: 643,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1956,24 +1993,24 @@ function HomePage() {
                                     children: "Director, Lead Consultant and Profile Building Expert at SOP-Edits Overseas, holds a B. Tech in Computer Engineering, a diploma in Strategic Management from the London School of Economics, an MBA from ESADE Business School, Barcelona and a Masters in Global Business from Georgetown University, USA. She worked as a Chief Technology Analyst at J.P. Morgan before beginning her career as an Education Counsellor."
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/HomePage.js",
-                                    lineNumber: 627,
+                                    lineNumber: 644,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/HomePage.js",
-                            lineNumber: 616,
+                            lineNumber: 633,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/HomePage.js",
-                    lineNumber: 612,
+                    lineNumber: 629,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/HomePage.js",
-                lineNumber: 611,
+                lineNumber: 628,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1989,14 +2026,14 @@ function HomePage() {
                                     children: "Student"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/HomePage.js",
-                                    lineNumber: 638,
+                                    lineNumber: 655,
                                     columnNumber: 13
                                 }, this),
                                 " Testimonials"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/HomePage.js",
-                            lineNumber: 637,
+                            lineNumber: 654,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2030,17 +2067,17 @@ function HomePage() {
                                                 allowFullScreen: true
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/HomePage.js",
-                                                lineNumber: 644,
+                                                lineNumber: 661,
                                                 columnNumber: 19
                                             }, this)
                                         }, i, false, {
                                             fileName: "[project]/src/components/HomePage.js",
-                                            lineNumber: 643,
+                                            lineNumber: 660,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/HomePage.js",
-                                    lineNumber: 641,
+                                    lineNumber: 658,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2060,7 +2097,7 @@ function HomePage() {
                                             children: "Prev"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/HomePage.js",
-                                            lineNumber: 657,
+                                            lineNumber: 674,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2077,30 +2114,30 @@ function HomePage() {
                                             children: "Next"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/HomePage.js",
-                                            lineNumber: 661,
+                                            lineNumber: 678,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/HomePage.js",
-                                    lineNumber: 656,
+                                    lineNumber: 673,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/HomePage.js",
-                            lineNumber: 640,
+                            lineNumber: 657,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/HomePage.js",
-                    lineNumber: 636,
+                    lineNumber: 653,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/HomePage.js",
-                lineNumber: 635,
+                lineNumber: 652,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
@@ -2116,12 +2153,12 @@ function HomePage() {
                                     className: "h-20 mb-2"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/HomePage.js",
-                                    lineNumber: 674,
+                                    lineNumber: 691,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/HomePage.js",
-                                lineNumber: 673,
+                                lineNumber: 690,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2133,7 +2170,7 @@ function HomePage() {
                                         children: "Privacy Policy"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/HomePage.js",
-                                        lineNumber: 678,
+                                        lineNumber: 695,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -2142,19 +2179,19 @@ function HomePage() {
                                         children: "Terms & Conditions"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/HomePage.js",
-                                        lineNumber: 679,
+                                        lineNumber: 696,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/HomePage.js",
-                                lineNumber: 677,
+                                lineNumber: 694,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/HomePage.js",
-                        lineNumber: 672,
+                        lineNumber: 689,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2165,7 +2202,7 @@ function HomePage() {
                                 children: "Copyright © 2025, SOP-Edits"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/HomePage.js",
-                                lineNumber: 683,
+                                lineNumber: 700,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2173,29 +2210,29 @@ function HomePage() {
                                 children: "All rights reserved."
                             }, void 0, false, {
                                 fileName: "[project]/src/components/HomePage.js",
-                                lineNumber: 684,
+                                lineNumber: 701,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/HomePage.js",
-                        lineNumber: 682,
+                        lineNumber: 699,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/HomePage.js",
-                lineNumber: 671,
+                lineNumber: 688,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/HomePage.js",
-        lineNumber: 290,
+        lineNumber: 297,
         columnNumber: 5
     }, this);
 }
-_s(HomePage, "4vtJ1eX0MICCxz91ZRMaCFazNw8=");
+_s(HomePage, "ZhUUBCoNKq7QFNsqDz28WXYj9uc=");
 _c = HomePage;
 var _c;
 __turbopack_context__.k.register(_c, "HomePage");

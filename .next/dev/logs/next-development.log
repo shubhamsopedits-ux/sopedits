@@ -21,3 +21,50 @@
 [00:11:25.138] Server  LOG      ✓ Compiled in 53ms
 [00:12:04.660] Server  LOG      ✓ Compiled in 43ms
 [00:12:35.379] Server  LOG      ✓ Compiled in 35ms
+[00:13:07.887] Server  LOG      ✓ Compiled in 304ms
+[00:13:08.559] Browser ERROR   ./src/components/HomePage.js:59:10
+Ecmascript file had an error
+  57 |   const [submitting, setSubmitting] = React.useState(false);
+  58 |   const [message, setMessage] = React.useState("");
+> 59 |   const [message, setMessage] = React.useState("");
+     |          ^^^^^^^
+  60 |
+  61 |   async function handleSubmit(e) {
+  62 |     e.preventDefault();
+
+the name `message` is defined multiple times
+
+Import trace:
+  Server Component:
+    ./src/components/HomePage.js
+    ./src/app/page.js
+[00:13:08.559] Browser ERROR   ./src/components/HomePage.js:59:19
+Ecmascript file had an error
+  57 |   const [submitting, setSubmitting] = React.useState(false);
+  58 |   const [message, setMessage] = React.useState("");
+> 59 |   const [message, setMessage] = React.useState("");
+     |                   ^^^^^^^^^^
+  60 |
+  61 |   async function handleSubmit(e) {
+  62 |     e.preventDefault();
+
+the name `setMessage` is defined multiple times
+
+Import trace:
+  Server Component:
+    ./src/components/HomePage.js
+    ./src/app/page.js
+[00:13:09.593] Server  LOG      ✓ Compiled in 85ms
+[00:13:17.465] Server  LOG      ✓ Compiled in 65ms
+[00:13:26.519] Server  LOG      ✓ Compiled in 49ms
+[00:13:45.753] Server  LOG      ✓ Compiled in 42ms
+[00:14:53.270] Server  LOG      ✓ Compiled in 69ms
+[00:15:20.728] Server  LOG      ✓ Compiled in 160ms
+[00:15:23.553] Server  LOG      ✓ Compiled in 59ms
+[00:15:28.702] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:54.840] Browser ERROR   {}
+[00:16:56.110] Server  LOG      ✓ Compiled in 62ms
+[00:17:14.973] Server  LOG      ✓ Compiled in 46ms
+[00:17:17.329] Server  LOG      ✓ Compiled in 36ms
+[00:17:31.798] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:18:14.412] Server  LOG      ✓ Compiled in 45ms
