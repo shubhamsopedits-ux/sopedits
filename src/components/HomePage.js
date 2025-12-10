@@ -490,7 +490,7 @@ export default function HomePage() {
             {/* Card 1 */}
             <div className="bg-white rounded-xl shadow p-6 flex flex-col gap-2">
               <div className="flex items-center gap-3 mb-2">
-                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Kshitij" className="h-12 w-12 rounded-full object-cover" />
+                <img src="https://lh3.googleusercontent.com/a-/ALV-UjWpuhJElsen6rzmIHzWxhzbMpADfbI8RWsbV8xfCZN8jo0kIDs7=w90-h90-p-rp-mo-br100" alt="Kshitij" className="h-12 w-12 rounded-full object-cover" />
                 <div>
                   <div className="font-semibold text-gray-900">Bharathkumar Patil</div>
                   <div className="text-gray-500 text-sm">Delhi ⟶ United States</div>
@@ -505,7 +505,7 @@ export default function HomePage() {
             {/* Card 2 */}
             <div className="bg-white rounded-xl shadow p-6 flex flex-col gap-2">
               <div className="flex items-center gap-3 mb-2">
-                <img src="https://randomuser.me/api/portraits/men/33.jpg" alt="Samad" className="h-12 w-12 rounded-full object-cover" />
+                <img src="https://lh3.googleusercontent.com/a-/ALV-UjUR1sdWNo6qk6q8CBuxowRDfK_zJKQQCGuFKWg2liXojV1V3cmW=w90-h90-p-rp-mo-ba5-br100" alt="Samad" className="h-12 w-12 rounded-full object-cover" />
                 <div>
                   <div className="font-semibold text-gray-900">Devarsh Wali</div>
                   <div className="text-gray-500 text-sm">Gujarat ⟶ United States</div>
@@ -520,7 +520,7 @@ export default function HomePage() {
             {/* Card 3 */}
             <div className="bg-white rounded-xl shadow p-6 flex flex-col gap-2">
               <div className="flex items-center gap-3 mb-2">
-                <img src="https://randomuser.me/api/portraits/men/34.jpg" alt="Shubham" className="h-12 w-12 rounded-full object-cover" />
+                <img src="https://lh3.googleusercontent.com/a-/ALV-UjU_ZeKUD8ME3horCcHkGPOdSqhCCnSHJ2voWKO9tTa65qLwCpmUkg=w90-h90-p-rp-mo-ba2-br100" alt="Shubham" className="h-12 w-12 rounded-full object-cover" />
                 <div>
                   <div className="font-semibold text-gray-900">Kuldeep Sihag</div>
                   <div className="text-gray-500 text-sm">Telangana ⟶ United States</div>
@@ -535,9 +535,9 @@ export default function HomePage() {
             {/* Card 4 */}
             <div className="bg-white rounded-xl shadow p-6 flex flex-col gap-2">
               <div className="flex items-center gap-3 mb-2">
-                <img src="https://randomuser.me/api/portraits/men/35.jpg" alt="Naveenkumar" className="h-12 w-12 rounded-full object-cover" />
+                <img src="https://lh3.googleusercontent.com/a-/ALV-UjXoLsdajvAWPnLi2U6sQpefsZwwcpmJgR1fntitlK2kUJzxw_6AWg=w90-h90-p-rp-mo-ba3-br100" alt="Naveenkumar" className="h-12 w-12 rounded-full object-cover" />
                 <div>
-                  <div className="font-semibold text-gray-900">Digvijaysingh Rajput</div>
+                  <div className="font-semibold text-gray-900">Soniya Pillai</div>
                   <div className="text-gray-500 text-sm">Karnataka ⟶ United States</div>
                 </div>
               </div>
@@ -550,7 +550,7 @@ export default function HomePage() {
             {/* Card 5 */}
             <div className="bg-white rounded-xl shadow p-6 flex flex-col gap-2">
               <div className="flex items-center gap-3 mb-2">
-                <img src="https://randomuser.me/api/portraits/women/36.jpg" alt="Shreya" className="h-12 w-12 rounded-full object-cover" />
+                <img src="https://lh3.googleusercontent.com/a-/ALV-UjVGttnu_WSKbNoDfKwzTzmYKkZZu7GEV-p5As0lTVjvCMVx8TY=w90-h90-p-rp-mo-br100" alt="Shreya" className="h-12 w-12 rounded-full object-cover" />
                 <div>
                   <div className="font-semibold text-gray-900">Humam Ahmad</div>
                   <div className="text-gray-500 text-sm">Noida ⟶ Dubai</div>
@@ -565,7 +565,7 @@ export default function HomePage() {
             {/* Card 6 */}
             <div className="bg-white rounded-xl shadow p-6 flex flex-col gap-2">
               <div className="flex items-center gap-3 mb-2">
-                <img src="https://randomuser.me/api/portraits/women/37.jpg" alt="Hanna" className="h-12 w-12 rounded-full object-cover" />
+                <img src="https://lh3.googleusercontent.com/a-/ALV-UjWSkQ78kVgWwUF9552GQJAr8Ew6whUi4_72s2gV4giX9bjFcals=w90-h90-p-rp-mo-br100" alt="Hanna" className="h-12 w-12 rounded-full object-cover" />
                 <div>
                   <div className="font-semibold text-gray-900">Harleen Kaur</div>
                   <div className="text-gray-500 text-sm">Maharashtra ⟶ Canada</div>
@@ -639,7 +639,7 @@ export default function HomePage() {
           </h2>
           <div className="relative">
             <div id="video-slider" className="flex gap-3 overflow-x-auto scroll-smooth snap-x snap-mandatory pb-2" style={{ scrollbarWidth: 'none' }}>
-              {["https://www.youtube.com/embed/GicV4q1KOrA", "https://www.youtube.com/embed/cnoQChiFOHc", "https://www.youtube.com/embed/p5CZfea7QMI", "https://www.youtube.com/embed/a9l7238vyWM", "https://www.youtube.com/embed/ErQlsP5clGU"].map((src, i) => (
+              {["https://www.youtube.com/embed/rCYyVUZl5BA", "https://www.youtube.com/embed/z8jO4Iz0Aoc", "https://www.youtube.com/embed/-FGwhcO8aLg", "https://www.youtube.com/embed/55dViGwxipE", "https://www.youtube.com/embed/gewjoyX8rkg", "https://www.youtube.com/embed/VrPMBGvozJU", "https://www.youtube.com/embed/3PWDU0aNkzg", "https://www.youtube.com/embed/pFqrn_zImmI", "https://www.youtube.com/embed/AV_gXvZlUIw"].map((src, i) => (
                 <div key={i} className="min-w-[80%] sm:min-w-[48%] md:min-w-[24%] bg-white rounded-xl shadow-lg overflow-hidden snap-center">
                   <iframe
                     width="100%"

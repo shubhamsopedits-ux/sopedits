@@ -1289,7 +1289,7 @@ function HomePage() {
                                             className: "flex items-center gap-3 mb-2",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                                    src: "https://randomuser.me/api/portraits/men/32.jpg",
+                                                    src: "https://lh3.googleusercontent.com/a-/ALV-UjWpuhJElsen6rzmIHzWxhzbMpADfbI8RWsbV8xfCZN8jo0kIDs7=w90-h90-p-rp-mo-br100",
                                                     alt: "Kshitij",
                                                     className: "h-12 w-12 rounded-full object-cover"
                                                 }, void 0, false, {
@@ -1374,7 +1374,7 @@ function HomePage() {
                                             className: "flex items-center gap-3 mb-2",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                                    src: "https://randomuser.me/api/portraits/men/33.jpg",
+                                                    src: "https://lh3.googleusercontent.com/a-/ALV-UjUR1sdWNo6qk6q8CBuxowRDfK_zJKQQCGuFKWg2liXojV1V3cmW=w90-h90-p-rp-mo-ba5-br100",
                                                     alt: "Samad",
                                                     className: "h-12 w-12 rounded-full object-cover"
                                                 }, void 0, false, {
@@ -1459,7 +1459,7 @@ function HomePage() {
                                             className: "flex items-center gap-3 mb-2",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                                    src: "https://randomuser.me/api/portraits/men/34.jpg",
+                                                    src: "https://lh3.googleusercontent.com/a-/ALV-UjU_ZeKUD8ME3horCcHkGPOdSqhCCnSHJ2voWKO9tTa65qLwCpmUkg=w90-h90-p-rp-mo-ba2-br100",
                                                     alt: "Shubham",
                                                     className: "h-12 w-12 rounded-full object-cover"
                                                 }, void 0, false, {
@@ -1544,7 +1544,7 @@ function HomePage() {
                                             className: "flex items-center gap-3 mb-2",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                                    src: "https://randomuser.me/api/portraits/men/35.jpg",
+                                                    src: "https://lh3.googleusercontent.com/a-/ALV-UjXoLsdajvAWPnLi2U6sQpefsZwwcpmJgR1fntitlK2kUJzxw_6AWg=w90-h90-p-rp-mo-ba3-br100",
                                                     alt: "Naveenkumar",
                                                     className: "h-12 w-12 rounded-full object-cover"
                                                 }, void 0, false, {
@@ -1556,7 +1556,7 @@ function HomePage() {
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             className: "font-semibold text-gray-900",
-                                                            children: "Digvijaysingh Rajput"
+                                                            children: "Soniya Pillai"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/HomePage.js",
                                                             lineNumber: 540,
@@ -1629,7 +1629,7 @@ function HomePage() {
                                             className: "flex items-center gap-3 mb-2",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                                    src: "https://randomuser.me/api/portraits/women/36.jpg",
+                                                    src: "https://lh3.googleusercontent.com/a-/ALV-UjVGttnu_WSKbNoDfKwzTzmYKkZZu7GEV-p5As0lTVjvCMVx8TY=w90-h90-p-rp-mo-br100",
                                                     alt: "Shreya",
                                                     className: "h-12 w-12 rounded-full object-cover"
                                                 }, void 0, false, {
@@ -1714,7 +1714,7 @@ function HomePage() {
                                             className: "flex items-center gap-3 mb-2",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                                    src: "https://randomuser.me/api/portraits/women/37.jpg",
+                                                    src: "https://lh3.googleusercontent.com/a-/ALV-UjWSkQ78kVgWwUF9552GQJAr8Ew6whUi4_72s2gV4giX9bjFcals=w90-h90-p-rp-mo-br100",
                                                     alt: "Hanna",
                                                     className: "h-12 w-12 rounded-full object-cover"
                                                 }, void 0, false, {
@@ -2009,11 +2009,15 @@ function HomePage() {
                                         scrollbarWidth: 'none'
                                     },
                                     children: [
-                                        "https://www.youtube.com/embed/GicV4q1KOrA",
-                                        "https://www.youtube.com/embed/cnoQChiFOHc",
-                                        "https://www.youtube.com/embed/p5CZfea7QMI",
-                                        "https://www.youtube.com/embed/a9l7238vyWM",
-                                        "https://www.youtube.com/embed/ErQlsP5clGU"
+                                        "https://www.youtube.com/embed/rCYyVUZl5BA",
+                                        "https://www.youtube.com/embed/z8jO4Iz0Aoc",
+                                        "https://www.youtube.com/embed/-FGwhcO8aLg",
+                                        "https://www.youtube.com/embed/55dViGwxipE",
+                                        "https://www.youtube.com/embed/gewjoyX8rkg",
+                                        "https://www.youtube.com/embed/VrPMBGvozJU",
+                                        "https://www.youtube.com/embed/3PWDU0aNkzg",
+                                        "https://www.youtube.com/embed/pFqrn_zImmI",
+                                        "https://www.youtube.com/embed/AV_gXvZlUIw"
                                     ].map((src, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "min-w-[80%] sm:min-w-[48%] md:min-w-[24%] bg-white rounded-xl shadow-lg overflow-hidden snap-center",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("iframe", {
