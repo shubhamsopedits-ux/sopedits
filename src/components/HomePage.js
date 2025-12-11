@@ -54,6 +54,7 @@ export default function HomePage() {
   const [name, setName] = React.useState("");
   const [email, setEmail] = React.useState("");
   const [phone, setPhone] = React.useState("");
+  const [dialCode, setDialCode] = React.useState("91");
   const [submitting, setSubmitting] = React.useState(false);
   const [message, setMessage] = React.useState("");
   const [toast, setToast] = React.useState({ show: false, text: "" });
@@ -68,6 +69,12 @@ export default function HomePage() {
     e.preventDefault();
     setMessage("");
     setSubmitting(true);
+    const national = phone.replace(/\D/g, "").replace(new RegExp("^" + dialCode), "");
+    if (national.length !== 10) {
+      setSubmitting(false);
+      showToast("Please enter a valid 10-digit mobile number.");
+      return;
+    }
     try {
       const res = await fetch("/api/contact", {
         method: "POST",
@@ -75,7 +82,7 @@ export default function HomePage() {
         body: JSON.stringify({
           name,
           email,
-          phone,
+          phone: phone.startsWith("+") ? phone : `+${phone}`, // send as +E.164
           state: selectedState,
           city: selectedCity,
         }),
@@ -359,9 +366,17 @@ export default function HomePage() {
                 <PhoneInput
                   country={"in"}
                   value={phone}
-                  onChange={(val) => setPhone(val)}
-                  inputProps={{ name: "phone", required: true }}
-                  placeholder="Mobile number"
+                  onChange={(val, data) => {
+                    setPhone(val);
+                    setDialCode((data && data.dialCode) || "91");
+                  }}
+                  isValid={(val, country) => {
+                    const dc = (country && country.dialCode) || "";
+                    const national = (val || "").replace(/\D/g, "").replace(new RegExp("^" + dc), "");
+                    return national.length === 10 || "Enter 10-digit mobile number";
+                  }}
+                  inputProps={{ name: "phone", required: true, inputMode: "numeric" }}
+                  placeholder="Mobile number*"
                   enableSearch
                   countryCodeEditable={false}
                   inputClass="w-full !text-md !border !border-gray-300 !rounded-r-xl focus:!outline-none focus:!ring-2 focus:!ring-blue-500"
